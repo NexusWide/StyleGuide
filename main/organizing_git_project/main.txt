@@ -22,7 +22,7 @@
 
     11. The version numbering of the project MUST be split into two phases: ( Pre_release phase, Release phase ).
 
-    12. During the Pre_release phase all changes in the development procces are a part of the version numbering.
+    12. During the pre_release phase all changes in the development procces are a part of the version numbering.
 
     13. During the Release phase, only the user_side features are a part of the version mumbering.
 
@@ -34,7 +34,7 @@
 
     17. Remote branches MUST always have their name set as the part of the API they are going to affect.
 
-    18. Remote branches MUST be deleted after they are merged into the master ( Main.Project ) branch in any form.
+    18. Remote branches MUST be deleted after they have been merged into the master ( Main.Project ) branch in any form.
 
     19. Local branches MUST have their name set as part of the API they are going to affect;
         - e.x: documentations;
