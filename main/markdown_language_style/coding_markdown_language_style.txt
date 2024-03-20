@@ -1,26 +1,24 @@
 ---- nexus_wide_markdown_language_style ----
 
-    1. Every markdown file must contain at least one header.
+    1. Every markdown file MUST contain at least one header.
 
     2. Headers should not be bolded, italic, ETC, they MUST be displayed in simple text.
 
     3. All headers MUST be the highest priority header ( # ), Usage of other headers is not allowed.
 
-    4. All english language sentence rules will apply to headers ( Example: Sentence must start with the uppercased first character ).
+    4. All english language sentence rules MUST be applied to headers ( Example: Sentence MUST start with the uppercased first character ).
 
     5. All headers except for the table of content, MUST be a question sentence.
 
-    6. The header texts must be simple and descriptive, do not use complex words.
+    6. The header texts MUST be simple and descriptive, do not use complex words.
 
-    7. Every header must contain a text after ( inside ) answering the question that was asked in the header, which is acknowledged as __subheader__.
+    7. Every header MUST contain a text after ( inside ) answering the question that was asked in the header, which is acknowledged as __subheader__.
 
-    9. __subheader__s must answer the questions straight forward.
+    8. __subheader__s MUST answer the questions with a comprehensive and plain answer.
 
-    8. __subheader__s should never contain extra sentences other than the ones that are answering the question.
+    9. __subheader__s should never contain extra sentences other than the ones that are answering the question.
 
-    9. Just like headers, __subheader__s should never be bold, italic, ETC, They must be in simple text.
-
-    10. Using complex words in __subheader__s for the sake of better explanation, is allowed.
+    10. Just like headers, __subheader__s should never be bold, italic, ETC, They MUST be in simple text.
 
     11. Using complex words in __subheader_s while the explaining the subject itself is not a complex operation, is not allowed.
 
