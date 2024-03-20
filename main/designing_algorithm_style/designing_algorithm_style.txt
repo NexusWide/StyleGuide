@@ -1,8 +1,8 @@
 --- nexus_wide_algorithm_visualization_style ----
 
-    1. Class attributes are visualized using the Attribute shape.:
+    1. Class attributes are visualized using the Attribute shape.
 
-    2. Loop starting , finishing , changes in operations will be written In sqaure.
+    2. Loops starting, finishing , changes in operations will be written In sqaure.
 
     3. Normal logical activites will be written in Milestone plan item ( Not classes , functions , decorators ).
 
