@@ -1,0 +1,10 @@
+NyvoStudio coding style guide:
+
+    1. All programmer's who use python , Should follow the PEP8 style guide.
+
+    2. Programmer's who use other language's , Should follow their language style guide , But must still keep up with the blank line rule's of PEP8.
+
+    3. All codes must be reformatted by the psf/black reformatter before merging to the main branch.
+
+    4. All the source code documentations must adhere to the ( Numpy Docstring Formatting ) guidelines.
+        https://www.sphinx-doc.org/en/master/usage/extensions/example_numpy.html

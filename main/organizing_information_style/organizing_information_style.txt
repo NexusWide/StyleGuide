@@ -1,0 +1,30 @@
+---- nyvostudio_information_organizing_style_guide ----
+
+    1. The text "nyvostudio_information_organizing_style_guide" is a __TITLE__.
+
+    2. __TITLE__ names should be descriptive and simple , Do not inject complexity.
+   
+    3. The text written at number 1 , is a __SUBTITLE__.
+
+    4. All __TITLE__ Must have two blank line's between each other.
+
+    5. All __SUBTITLE__s Should be used inside A __TITLE__.
+
+    6. All first __SUBTITLE__s inside should be seperated from the __TITLE__ by one line.
+
+    7. All __SUBTITLE__s Should be one line Seperated from each other.
+
+    8. All __SUBTITLE__s Should have four spaces at their backside before their main text.
+
+    9. All __SUBTITLE__s Should have follow a incrementing numbering system.
+
+    10. All __SUBTITLES__s numbers should be english .
+  
+    11. All __SUBTITLE__s Should have A __dot__(.) After their numbering.
+
+    12. All __SUBTITLE__s should have one space between their __dot__ and the main text.
+
+    13. All of the infographical files must end with an ---- END ---- tag.
+
+
+---- END ----
