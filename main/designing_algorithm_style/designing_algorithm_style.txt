@@ -8,9 +8,9 @@
 
     4. User inputs are shown in hexagon shape.
 
-    5. System decisions and exceptions will be written in rhombus.
+    5. System decisions and exceptions will be written in Rhombus.
 
-    6. Functions will be written in triangles.
+    6. Functions will be written in Triangles.
 
     7. Function calls be written in call activity shape ( yellow square ).
 
@@ -28,13 +28,13 @@
 
     14. Partition names will be shown with the case file item.
 
-    15. Comments will be shown in comment_alt shape.
+    15. Comments will be shown in comment alt shape.
 
-    16. Numerical orderings will be written in brackets.
+    16. Numerical orderings will be visualized in brackets.
 
-    17. Implement indications are designed in ( implementation event ).
+    17. Implement indications are visualized in implementation event.
 
-    18. All algorithm files ( excluding the text-based ones ) must contain an diagram info object explaining the purpose of -
+    18. All algorithm files ( excluding the text-based ones ) must contain a diagram info object explaining the purpose of -
         the file.
 
     19. The diagram info must contain an ( end ) object, describing the outcome or the exportation of the algorithm.
