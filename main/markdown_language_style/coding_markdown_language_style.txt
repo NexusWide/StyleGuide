@@ -4,15 +4,15 @@
 
     2. Headers should not be bolded, italic, ETC, they MUST be displayed in simple text.
 
-    3. All headers should be the highest priority header ( # ), Usage of other headers is not allowed.
+    3. All headers MUST be the highest priority header ( # ), Usage of other headers is not allowed.
 
     4. All english language sentence rules will apply to headers ( Example: Sentence must start with the uppercased first character ).
 
-    5. All headers except for the table of content, should be a question sentence.
+    5. All headers except for the table of content, MUST be a question sentence.
 
-    6. The header texts must be simple and descriptive, Do not use complex words .
+    6. The header texts must be simple and descriptive, do not use complex words.
 
-    7. Every header must contain a text after ( inside ) answering the question that was asked in the header, Which is refrenced as __subheader__.
+    7. Every header must contain a text after ( inside ) answering the question that was asked in the header, which is acknowledged as __subheader__.
 
     9. __subheader__s must answer the questions straight forward.
 
@@ -20,50 +20,9 @@
 
     9. Just like headers, __subheader__s should never be bold, italic, ETC, They must be in simple text.
 
-    10. Using complex words in __subheader__s for the sake of better explanation, is always allowed.
+    10. Using complex words in __subheader__s for the sake of better explanation, is allowed.
 
     11. Using complex words in __subheader_s while the explaining the subject itself is not a complex operation, is not allowed.
-
-    12. All markdown files used in a repository or project serving as README should contain A __table_of_contents__.
-
-    13. __table_of_contents__ should always contain a text after ( inside ).
-   
-    14. The text inside __table_of_contents__ should refer and mention all the items inside the repository or project, and their specified path.
-
-    15. __table_of_content__s should always have a header with the simple text of: Table of contents.
-
-    16. There should be no explanatory text ( sentences ) inside a __table_of_content__s.
-   
-    17. All texts in the __table_of_content__s should match and be applid the english language rules ( Do not use snake case, ETC, except for file paths ).
-    
-    18. All file paths inside the __table_of_contents__ should be sorted with a text known as __topper__ on top of each elements that are considered in one group.
-        - Example ( Informations, Algorithms )
-
-    19. __topper__s should not contain any of the assigend characters ( ; " ' ).
-
-    20. __topper__s should not be italic or bold, They must be written In simple text.
-
-    21. __topper__s most contain A black cricle at their back ( created with - in .md ).
-
-    22. __topper__s text most be seperated by one character from the black circle at their back.
-
-    23. __topper__s text most be followed up with a colon at the end.
-
-    24. __toppers__s colon must be sticked to them ( No space character ).
-
-    25. Inside the __topper__, There must be different file names, Followed with a ->, And the file path.
-
-    26. File names inside the __topper__ must have a black vertical line at their back ( created with > in .md ).
-
-    28. Every line must contain only one file name and its path.
-
-    29. Each file name-path pair' are called __element__s.
-
-    30. Each __topper__ and all the __elements__ inside them are a group which is known as __topper_element_pair__.
-
-    31. There should be no blank lines between each __element__ inside a __topper__.
-
-    32. There should be no blank line between the __topper_element_pair__s.
 
 
 ---- END ----
