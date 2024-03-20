@@ -18,9 +18,7 @@
 
     9. __subheader__s should never contain extra sentences other than the ones that are answering the question.
 
-    10. Just like headers, __subheader__s should never be bold, italic, ETC, They MUST be in simple text.
-
-    11. Using complex words in __subheader_s while the explaining the subject itself is not a complex operation, is not allowed.
+    10. Just like headers, __subheader__s shall never be bold, italic, ETC, They MUST be in simple text.
 
 
 ---- END ----
