@@ -1,20 +1,20 @@
-NyvoStudio Project Documentation Style Guide:
+---- nexus_wide_project_management_style_guied ----
 
-    1. All NyvoStudio project repositories MUST contain a 'docs' directory.
+    1. All NexusWide project repositories MUST contain a 'docs' directory.
 
-    2. All NyvoStudio project repositories MUST have a 'README.md' file 
+    2. All NexusWide project repositories MUST have a 'README.md' file
         - that follows the Markdown formatting and style guidelines.
 
-    3. All NyvoStudio project repositories MUST contain a 'Privacy Policy' file.
+    3. All NexusWide project repositories MUST contain a 'Privacy Policy' file.
 
     4. All of the following segments: 'Security Policies', 'Code of Conduct', 'Contributing Guidelines', and 'terms of service'
         - MUST be located within the 'docs' directory.
 
     5. Only the 'License' file is permitted to be located in the main directory of the repository.
 
-    6. All NyvoStudio_owned repositories MUST be licensed under ( Creative Commons Zero v1.0 Universal ).
+    6. All NexusWide_owned repositories MUST be licensed under ( Creative Commons Zero v1.0 Universal ).
 
-    7. No force_commits are allowed in NyvoStudio repositories.
+    7. No force_commits are allowed in NexusWide repositories.
 
     9. All commits MUST have a branch of their own, discussed and then merged to the main branch.
 
@@ -55,7 +55,7 @@ NyvoStudio Project Documentation Style Guide:
 
     26. pull_requests may contain a to_do list in as a comment for new updates to be pushed to the branch.
 
-    27. pull_request to_do_list writing must adhere to the NyvoStudio to_do_list_formatting_guide.
+    27. pull_request to_do_list writing must adhere to the NexusWide to_do_list_formatting_guide.
 
     28. All pull reqeusts MUST contain a well_formatted ( The formatting in this case is optional ) description comment,
         - which fully explains the purpose of the changes added and their outcome result on the project code_base.
@@ -128,3 +128,6 @@ NyvoStudio Project Documentation Style Guide:
     54. All remote repository merge messages MUST have the URL of their pull request at their description section.
 
     55. All remote repository pull_requests MUST have the same content as their pull_request title in the footer section.
+
+
+---- END ----

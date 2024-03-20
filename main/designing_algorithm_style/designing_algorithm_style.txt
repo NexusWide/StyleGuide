@@ -1,4 +1,4 @@
-NyvoStudio algorithm writing style guide:
+--- nexus_wide_algorithm_visualization_style ----
 
     1. Class attributes are visualized using the Attribute shape.:
 
@@ -42,3 +42,6 @@ NyvoStudio algorithm writing style guide:
     20. All textual subjects must be written using the Jetbrains Sans Mono font family.
 
     21. All algorithms must be visualized in Visual Paradigm.
+
+
+---- END ----

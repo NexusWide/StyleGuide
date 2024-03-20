@@ -1,4 +1,4 @@
-NyvoStudio MarkDown file style guide:
+---- nexus_wide_markdown_language_style ----
 
     1. Every Markdown file must contain at least one header.
 
@@ -64,3 +64,6 @@ NyvoStudio MarkDown file style guide:
     31. There should be no blank line's between each __element__ inside A __topper__.
 
     32. There should be no blank line between the __topper_elemtn_pair__'s.
+
+
+---- END ----

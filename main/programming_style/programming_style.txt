@@ -1,4 +1,4 @@
-NyvoStudio coding style guide:
+---- nexus_wide_programming_style ----
 
     1. All programmer's who use python , Should follow the PEP8 style guide.
 
@@ -8,3 +8,6 @@ NyvoStudio coding style guide:
 
     4. All the source code documentations must adhere to the ( Numpy Docstring Formatting ) guidelines.
         https://www.sphinx-doc.org/en/master/usage/extensions/example_numpy.html
+
+
+---- END ----

@@ -1,4 +1,4 @@
-NyvoStudio filing style guide :
+---- nexus_wide_file_management_style ----
 
     1. All file names should be in snake_case : ( All letter's are in lowercase , Instead of space _ Is used. ). 
 
@@ -9,3 +9,4 @@ NyvoStudio filing style guide :
     4. Do not use Complex filenames , All names should be kept simple.
 
 
+---- END ----

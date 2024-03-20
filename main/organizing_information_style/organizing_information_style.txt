@@ -1,6 +1,6 @@
----- nyvostudio_information_organizing_style_guide ----
+---- nexu_swide_information_organizing_style_guide ----
 
-    1. The text "nyvostudio_information_organizing_style_guide" is a __TITLE__.
+    1. The text "nexuswide_information_organizing_style_guide" is a __TITLE__.
 
     2. __TITLE__ names should be descriptive and simple , Do not inject complexity.
    
