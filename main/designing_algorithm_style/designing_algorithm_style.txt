@@ -2,9 +2,9 @@
 
     1. Class attributes are visualized using the Attribute shape.
 
-    2. Loops starting, finishing , changes in operations will be written In sqaure.
+    2. Loops starting, finishing, changes in operations will be written In sqaure.
 
-    3. Normal logical activites will be written in Milestone plan item ( Not classes , functions , decorators ).
+    3. Normal logical activites will be written in Milestone plan item ( Not classes, functions, decorators ).
 
     4. User inputs are shown in Hexagon shape.
 
