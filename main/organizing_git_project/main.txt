@@ -1,6 +1,6 @@
 ---- nexus_wide_project_management_style_guied ----
 
-    1. All NexusWide project repositories MUST contain a 'docs' directory.
+    1. All NexusWide project repositories MUST contain a 'documentations' directory.
 
     2. All NexusWide project repositories MUST have a 'README.md' file
         - that follows the Markdown formatting and style guidelines.
