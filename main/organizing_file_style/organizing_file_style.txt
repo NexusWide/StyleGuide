@@ -1,6 +1,6 @@
 ---- nexus_wide_file_management_style ----
 
-    1. All file names MUST be in snake_case : ( All letters are in lowercase, instead of space underscore(_) is used. ).
+    1. All file names MUST be in snake_case: ( All letters MUST be in lowercase, instead of space underscore(_) is used. ).
 
     2. File names MUST start with a verb, and at the second parts there MUST be a name or piece of information.
 
