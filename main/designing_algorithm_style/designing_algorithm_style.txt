@@ -41,7 +41,7 @@
 
     20. All textual subjects must be written using the jetbrains sans mono font family.
 
-    21. All algorithms must be visualized in visual paradigm.
+    21. All algorithms must be visualized in Visual Paradigm.
 
 
 ---- end ----
