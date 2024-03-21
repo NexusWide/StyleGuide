@@ -110,7 +110,7 @@
         - ( Updating docs, refactoring source code ):
         - e.x: fetch(merge): fix conflict with origin Main.Project .
 
-    52. All remote repository merge messages MUST be the same as the title of the pull_request.
+    52. All remote repository merge messages MUST be the same as the title of their pull_request.
 
     53. All remote repository merge messages MUST have the URL of their pull request at their description section.
 
