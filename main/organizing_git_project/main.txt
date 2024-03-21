@@ -8,7 +8,7 @@
     3. All NexusWide project repositories MUST contain a 'Privacy Policy' file.
 
     4. All of the following segments: 'Security Policies', 'Code of Conduct', 'Contributing Guidelines', and 'terms of service'
-        - MUST be located within the 'documenations' directory.
+        - MUST be located within the docs' directory.
 
     5. Only the 'License' file is permitted to be located in the main directory of the repository.
 
@@ -32,17 +32,15 @@
 
     16. release versioning and development versioning are seperate concepts, do not attempt to use release versioning while adding updates to the back_end segment of the projects.
 
-    17. Remote branches MUST always have their name set as the part of the API they are going to affect.
+    19. Local branches MUST have their name set as part of the API they are going to affect;
+            - e.x: docs;
+            - Note that this MAY not be the same as the commits scope.
 
     18. Remote branches MUST be deleted after they have been merged into the master ( Main.Project ) branch in any form.
 
-    19. Local branches MUST have their name set as part of the API they are going to affect;
-        - e.x: docs;
-        - Note that this MAY not be the same as the commits scope.
+    20. Contributors MUST create a new remote branch and pull request before merging, after they have made all the changes required to launch a new update title.
 
-    20. Always create a new remote branch and pull request before merging, after you have made all the changes required to launch a new update title.
-
-    21. Contributors MUST Always create a pull request and branch before even attempting to add any changes to their local repository.
+    21. Contributors MUST Always create a pull request and branch before attempting to make their local changes and propose an update.
 
     22. Pull request titles MUST refer to the feat or MAJOR change commit message which is expected to be the outcome after all the to_do's are finished,
 
@@ -53,9 +51,7 @@
     25. Contributors MUST NOT list any of the ( fix ) or ( feat ) changes in the special comments of a pull request ( i.e: to_do, description ),
         - They MUST be self_explanatory in the commit messages.
 
-    26. pull_requests may contain a to_do list in as a comment for new updates to be pushed to the branch.
-
-    27. pull_request to_do_list writing MUST adhere to the NexusWide to_do_list_formatting_guide.
+    26. Pull requests MUST NOT contain a to_do list, as that would make the existence of issues purposeless.
 
     28. All pull reqeusts MUST contain a well_formatted ( The formatting in this case is optional ) description comment,
         - which fully explains the purpose of the changes added and their outcome result on the project code_base.
