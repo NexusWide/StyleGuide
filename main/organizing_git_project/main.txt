@@ -72,7 +72,7 @@
         - MUST be closed and labled as 'rejected'
         - ( The description comment MUST stay as is ).
 
-    29. The 'signed off by' section MUST be the last section of the comment and refer to the contributors who parted in the update.
+    29. The 'signed off by' section MUST be the last section of the description comment and refer to the contributors who parted in the update.
 
     30. All code MUST be reformatted and pass all the tests given by the GitHub Actions before being merged
         - ( excluding txt or documentation files )
