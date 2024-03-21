@@ -35,7 +35,7 @@
     15. Local branches MUST have their name set as the part of the API they are going to affect;
         - e.x: documentations.
 
-    16. Contributors MUST always create a pull request and branch before attempting to make their local changes and propose an update.
+    16. Contributors MUST always create a pull request and branch before attempting to make their local changes and submit an update.
 
     17. Remote branches MUST be deleted after they have been merged into the master ( Main.Project ) branch in any form.
 
@@ -47,7 +47,7 @@
 
     21. All pull requests MUST have at least one comment before being merged.
 
-    22. Contributors MUST NOT list any of the ( fix ) or ( feat ) changes in the special comments of a pull request ( i.e: to_do, description ),
+    22. Contributors MUST NOT list any of the ( fix ) or ( feat ) changes in the description comment of a pull request
         - They MUST be self_explanatory in the commit messages.
 
     23. All pull reqeusts MUST contain a well_formatted description comment.
