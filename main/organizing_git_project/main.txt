@@ -68,7 +68,7 @@ u---- nexus_wide_project_management_style_guide ----
     27. The 'signed off by' section MUST be the last section of the description comment and refer to the contributors who parted in the update.
 
     28. Issue references in pull requests MUST follow the following format:
-        - ( Issue Note | N : { Issue Number }  ).
+        - ( Issue Note | { Issue Number } ).
 
     29. If a update has been rejected or/and left undone, The branch related to the update MUST be deleted, the pull_request
         - MUST be closed and labled as 'rejected'
