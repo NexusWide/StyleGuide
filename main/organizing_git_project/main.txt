@@ -91,7 +91,7 @@
 
     36. The Git commit messages are formatted by the https://www.conventionalcommits.org/en/v1.0.0/ conventions.
 
-    37. Git commits MUST be as small and independent as possible, do not mix two possible commits together
+    37. Git commits MUST be as small and independent as possible, do not concatenate two possible commits together
         - e.x: ( fix(docs): refactor grammar and add header ruleset ) is a bad commit message.
 
     38. All Git commit messages MUST have their branch name and the commit number -
