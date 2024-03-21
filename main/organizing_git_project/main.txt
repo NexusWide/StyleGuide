@@ -86,7 +86,7 @@
 
     34. Push changes as often as possible, all the changes to the project ( including the ones that are rejected or/and aborted ) MUST be recorded.
 
-    35. All suspended projects ( those that don't receive any new update for a designated period of time ) MUST be archived and be followed with
+    35. All suspended projects ( those that don't receive any new update for a designated period of time ) MUST be archived and followed with
         - a note text at the tail of their README file, elucidating the fact that the project have been archived.
 
     36. The Git commit messages are formatted by the https://www.conventionalcommits.org/en/v1.0.0/ conventions.
