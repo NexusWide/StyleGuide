@@ -114,6 +114,6 @@
 
     53. All remote repository merge messages MUST have the URL of their pull request at their description section.
 
-    54. All remote repository merge messages MUST have their pull request number as their footer.
+    54. All remote repository merge messages MUST have their pull request number as their description footer.
 
 ---- END ----
