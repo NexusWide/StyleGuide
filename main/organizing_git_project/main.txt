@@ -69,7 +69,10 @@
     31. Issue names in pull requests MUST follow the following format:
         - ( Issue Note | N : {Issue Number}  ).
 
-    33. If a update has been rejected or/and left undone, The branch related to the update be deleted, the pull_request
+    54. All pull requests MUST have their pull request count as their footer.:
+        - ( i.e: fetch: ... )
+
+    33. If a update has been rejected or/and left undone, The branch related to the update MUST be deleted, the pull_request
          - MUST be closed and labled as ```Rejected```
          - ( The changelog comment MUST stay as it is. )
 
@@ -110,9 +113,6 @@
     52. All remote repository merge messages MUST be the same as the title of the pull_request.
 
     53. All remote repository merge messages MUST have the URL of their pull request at their description section.
-
-    54. All pull requests MUST have their pull request count as their footer.:
-        - ( i.e: fetch: ... )
 
 
 ---- END ----
