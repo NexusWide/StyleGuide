@@ -66,8 +66,8 @@
         - What results are expected.
         - Which issue notes are affected by this update
 
-    37. Issues naming conventions MUST follow the corressondig regular expression:
-        - `{Issue Title} | N : {Issue Number}`, e.x: problem(docs): remove harsh rules | N : 1.
+    31. Issue names in pull requests MUST follow the following format:
+        - ( Issue Note | N : {Issue Number}  ).
 
     31. The pull_request description comment MUST start with a header containing the update name
         - ( this is not the same as the pull_request title, it is any name that you would want to assign )
@@ -83,10 +83,10 @@
     35. All code MUST be reformatted and pass all the tests given by the GitHub Actions before being merged
         - ( excluding txt or documentation files )
 
-    39. All issues MUST contain at least 1 comment.
+    37. Issues naming conventions MUST follow the corressondig regular expression:
+        - `{Issue Title} | N : {Issue Number}`, e.x: problem(docs): remove harsh rules | N : 1.
 
-    31. Issue names in pull requests MUST follow the following format:
-        - ( Issue Note | N : {Issue Number}  ).
+    39. All issues MUST contain at least 1 comment.
 
     40. The first comment of an issue is called the __details__ comment.
 
