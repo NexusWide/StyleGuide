@@ -98,7 +98,7 @@
         - ( the number of times that the contributor have committed to this branch ) as their footer
         - e.x: ( style_guide: 3 ).
 
-    39. In the context of updating local repositories, use merge instead of rebase.
+    39. In the context of updating combining branches, use merge instead of rebase.
 
     40. While performing any type of merging operation, adhere to the same guidelines as commit messages and provide the reason behind the merge
          - e.x: fetch(merge): fix conflict with origin Main.Project .
