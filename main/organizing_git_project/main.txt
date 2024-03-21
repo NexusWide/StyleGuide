@@ -29,7 +29,7 @@
     15. The release phase version numbering is only mentioned in ( the changelog.md ) file.
 
     16. release versioning and development versioning are seperate concepts,
-        - do not attempt to use release versioning while adding updates to the
+        - do not attempt to increment the release versioning while adding updates to the
         - back_end segment of the projects.
 
     19. Local branches MUST have their name set as part of the API they are going to affect;
