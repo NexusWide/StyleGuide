@@ -65,14 +65,14 @@
         - What results are expected.
         - Which issue notes are affected by this update
 
-    27. Issue references in pull requests MUST follow the following format:
+    27. The 'signed off by' section MUST be the last section of the description comment and refer to the contributors who parted in the update.
+
+    28. Issue references in pull requests MUST follow the following format:
         - ( Issue Note | N : { Issue Number }  ).
 
-    28. If a update has been rejected or/and left undone, The branch related to the update MUST be deleted, the pull_request
+    29. If a update has been rejected or/and left undone, The branch related to the update MUST be deleted, the pull_request
         - MUST be closed and labled as 'rejected'
         - ( The description comment MUST stay as is ).
-
-    29. The 'signed off by' section MUST be the last section of the description comment and refer to the contributors who parted in the update.
 
     30. All code MUST be reformatted and pass all the tests given by the GitHub Actions before being merged
         - ( excluding txt or documentation files )
