@@ -5,9 +5,9 @@
     2. All NexusWide project repositories MUST have a 'README.md' file
         - that follows the Markdown formatting and style guidelines.
 
-    3. All NexusWide project repositories MUST contain a 'Privacy Policy' file.
+    3. All NexusWide project repositories MUST contain a 'Security Policy' file.
 
-    4. All of the following segments: 'Security Policies', 'Code of Conduct', 'Contributing Guidelines', and 'terms of service'
+    4. All of the following segments: 'Security Policies', 'Code of Conduct', 'Contributing Guidelines', and 'Terms of Service'
         - MUST be located within the 'docs' directory.
 
     5. Only the 'License' file is permitted to be located in the main directory of the repository.
