@@ -16,99 +16,99 @@
 
     7. force_commits are not allowed in NexusWide repositories.
 
-    10. All versions of the project repository MUST be controlled under semantic ( "https://semver.org/" ).
+    8. All versions of the project repository MUST be controlled under semantic ( "https://semver.org/" ).
 
-    11. The version numbering of the project MUST be split into two phases: ( pre_release phase, release phase ).
+    9. The version numbering of the project MUST be split into two phases: ( pre_release phase, release phase ).
 
-    12. During the pre_release phase all changes in the development procces are a part of the version numbering.
+    10. During the pre_release phase all changes in the development procces are a part of the version numbering.
 
-    13. During the release phase, only the user_side features are a part of the version numbering.
+    11. During the release phase, only the user_side features are a part of the version numbering.
 
-    14. When a project reaches the release phase, a ( changelog.md ) file MUST be implemented in the repository ( docs ) directory.
+    12. When a project reaches the release phase, a ( changelog.md ) file MUST be implemented in the repository ( docs ) directory.
 
-    15. The release phase version numbering is only mentioned in ( the changelog.md ) file.
+    13. The release phase version numbering is only mentioned in ( the changelog.md ) file.
 
-    16. release versioning and development versioning are seperate concepts,
+    14. release versioning and development versioning are seperate concepts,
         - do not attempt to increment the release versioning while adding updates to the
         - back_end segment of the projects.
 
-    19. Local branches MUST have their name set as part of the API they are going to affect;
+    15. Local branches MUST have their name set as part of the API they are going to affect;
         - e.x: documentations.
 
-    21. Contributors MUST always create a pull request and branch before attempting to make their local changes and propose an update.
+    16. Contributors MUST always create a pull request and branch before attempting to make their local changes and propose an update.
 
-    18. Remote branches MUST be deleted after they have been merged into the master ( Main.Project ) branch in any form.
+    17. Remote branches MUST be deleted after they have been merged into the master ( Main.Project ) branch in any form.
 
-    26. Pull requests MUST NOT contain a to_do list, as that would make the existence of issues purposeless.
+    18. Pull requests MUST NOT contain a to_do list, as that would make the existence of issues purposeless.
 
-    22. Pull request titles MUST refer to the fix, feat or MAJOR change commit message which is expected to be the outcome after all the issue to_dos are finished,
+    19. Pull request titles MUST refer to the fix, feat or MAJOR change commit message which is expected to be the outcome after all the issue to_dos are finished,
 
-    23. the convention of naming pull requests is the same as commit messages.
+    20 the convention of naming pull requests is the same as commit messages.
 
-    24. All pull requests MUST have at least one comment before being merged.
+    21. All pull requests MUST have at least one comment before being merged.
 
-    25. Contributors MUST NOT list any of the ( fix ) or ( feat ) changes in the special comments of a pull request ( i.e: to_do, description ),
+    22. Contributors MUST NOT list any of the ( fix ) or ( feat ) changes in the special comments of a pull request ( i.e: to_do, description ),
         - They MUST be self_explanatory in the commit messages.
 
-    n28. All pull reqeusts MUST contain a well_formatted description comment.
+    23. All pull reqeusts MUST contain a well_formatted description comment.
 
-    29. The pull_request description comment MUST always be the first comment.
+    24. The pull_request description comment MUST always be the first comment.
 
-    31. The pull_request description comment MUST start with a header containing the update name
+    25. The pull_request description comment MUST start with a header containing the update name
         - ( this is not the same as the pull_request title, it is any name that you would want to assign )
         - followed by the version number.
         - e.x: documentation changes description header would be: ( UDock | 1.0.0 ).
 
-    30. The pull_request description comment MUST contain four sections:
+    26. The pull_request description comment MUST contain four sections:
         - What has changed ( API changes ).
         - What were the reasons behind the changes.
         - What results are expected.
         - Which issue notes are affected by this update
 
-    31. Issue names in pull requests MUST follow the following format:
+    27. Issue names in pull requests MUST follow the following format:
         - ( Issue Note | N : { Issue Number }  ).
 
-    33. If a update has been rejected or/and left undone, The branch related to the update MUST be deleted, the pull_request
+    28. If a update has been rejected or/and left undone, The branch related to the update MUST be deleted, the pull_request
         - MUST be closed and labled as 'rejected'
         - ( The description comment MUST stay as is ).
 
-    34. The 'signed off by' section MUST be the last section of the comment and refer to the contributors who parted in the update.
+    29. The 'signed off by' section MUST be the last section of the comment and refer to the contributors who parted in the update.
 
-    35. All code MUST be reformatted and pass all the tests given by the GitHub Actions before being merged
+    30. All code MUST be reformatted and pass all the tests given by the GitHub Actions before being merged
         - ( excluding txt or documentation files )
 
-    37. Issues naming conventions MUST follow the corressondig regular expression:
-        - (  { Issue Title } | N : { Issue Number } ), e.x: problem(docs): remove harsh rules | N : 1.
+    31. Issues naming conventions MUST follow the corressondig regular expression:
+        - (  { Issue Title } | N : { Issue Number } ), e.x: problem(docs): remove harsh rules | N : 3.
 
-    39. All issues MUST contain at least 1 comment.
+    32. All issues MUST contain at least 1 comment.
 
-    41. The first comment of an issue MUST be the __details__ comment.
+    33. The first comment of an issue MUST be the __details__ comment.
 
-    45. Push changes as often as possible, all the changes to the project ( including the ones that are rejected or/and aborted ) MUST be recorded.
+    34. Push changes as often as possible, all the changes to the project ( including the ones that are rejected or/and aborted ) MUST be recorded.
 
-    46. All suspended projects ( those that don't receive any new update for a designated period of time ) MUST be archived and be followed  with
+    35. All suspended projects ( those that don't receive any new update for a designated period of time ) MUST be archived and be followed  with
         - a note text at the tail of their README file, elucidating the fact that the project have been archived.
 
-    47. The Git commit messages are formatted by the https://www.conventionalcommits.org/en/v1.0.0/ conventions.
+    36. The Git commit messages are formatted by the https://www.conventionalcommits.org/en/v1.0.0/ conventions.
 
-    48. Git commits MUST be as small and independent as possible, do not mix two possible commits together
+    37. Git commits MUST be as small and independent as possible, do not mix two possible commits together
         - e.x: ( fix(docs): refactor grammar and add header ruleset ) is a bad commit message.
 
-    49. All Git commit messages MUST have their branch name and the commit number -
+    38. All Git commit messages MUST have their branch name and the commit number -
         - ( the number of times that the contributor have committed to this branch ) as their footer
         - e.x: ( style_guide: 3 ).
 
-    50. In the context of updating local repositories, use merge instead of rebase.
+    39. In the context of updating local repositories, use merge instead of rebase.
 
-    51. While performing any type of merging operation, adhere to the same guidelines as commit messages and provide the reason behind the merge
+    40. While performing any type of merging operation, adhere to the same guidelines as commit messages and provide the reason behind the merge
          - e.x: fetch(merge): fix conflict with origin Main.Project.
 
-    52. All remote repository merge messages MUST be the same as the title of their pull_request.
+    41. All remote repository merge messages MUST be the same as the title of their pull_request.
 
-    53. All remote repository merge messages MUST have the URL of their pull request at their description section.
+    42. All remote repository merge messages MUST have the URL of their pull request at their description section.
 
-    54. All remote repository merge messages MUST have their pull request count as their description footer.
-        - e.x: ( merge: 4  )
+    43. All remote repository merge messages MUST have their pull request count as their description footer.
+        - e.x: ( merge: 4 )
 
 
 ---- END ----
