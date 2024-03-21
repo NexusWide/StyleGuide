@@ -1,6 +1,6 @@
 ---- nexus_wide_project_management_style_guied ----
 
-    1. All NexusWide project repositories MUST contain a 'documentations' directory.
+    1. All NexusWide project repositories MUST contain a 'docs' directory.
 
     2. All NexusWide project repositories MUST have a 'README.md' file
         - that follows the Markdown formatting and style guidelines.
@@ -37,7 +37,7 @@
     18. Remote branches MUST be deleted after they have been merged into the master ( Main.Project ) branch in any form.
 
     19. Local branches MUST have their name set as part of the API they are going to affect;
-        - e.x: documentations;
+        - e.x: docs;
         - Note that this MAY not be the same as the commits scope.
 
     20. Always create a new remote branch and pull request before merging, after you have made all the changes required to launch a new update title.
@@ -118,7 +118,7 @@
     50. In the context of updating local repositories, use merge instead of rebase.
 
     51. While performing any type of merging operation, adhere to the same guidelines as commit messages and provide the reason behind the commit
-        - ( Updating documentations, refactoring source code ):
+        - ( Updating docs, refactoring source code ):
         - e.x: fetch(merge): fix conflict with origin Main.Project .
 
     52. All remote repository merge messages MUST be the same as the title of the pull_request.
