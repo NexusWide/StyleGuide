@@ -82,7 +82,7 @@
     34. The ```signed off by``` section MUST be at the last section of the comment and refer to the contributors who parted in the update.
 
     35. All code MUST be reformatted and pass all the tests given by the GitHub Actions linter before being merged
-        - (excluding txt or documentation files)
+        - ( excluding txt or documentation files )
 
     36. Only compact changes after a merge are allowed to be patched and committed outside of branches by the project manager.
 
@@ -125,7 +125,7 @@
     53. All remote repository merge messages MUST have the URL of their pull request at their description section.
 
     54. All pull requests MUST have their pull request count as their footer.:
-        - (i.e: fetch: ...)
+        - ( i.e: fetch: ... )
 
 
 ---- END ----
