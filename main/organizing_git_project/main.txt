@@ -87,6 +87,9 @@
         - Why is this fixture necessary?
         - What is the expected outcome?
 
+    33. The issue __details__ comment must contain a contributor name at its last section,
+        - in order to asign the contributor to the cited task.
+
     33. All issues MUST contain at least 1 comment.
 
     34. The first comment of an issue MUST be the __details__ comment.
