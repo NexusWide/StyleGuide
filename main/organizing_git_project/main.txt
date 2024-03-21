@@ -78,7 +78,7 @@
         - ( excluding txt or documentation files )
 
     31. Issues naming conventions MUST follow the corressondig regular expression:
-        - (  { Issue Title } | N : { Issue Number } ), e.x: problem(docs): remove harsh rules | N : 3.
+        - (  { Issue Title } | N : { Issue Number } ), e.x: problem(docs): remove harsh rules | N : 3 .
 
     32. All issues MUST contain at least 1 comment.
 
@@ -107,7 +107,7 @@
 
     42. All remote repository merge messages MUST have the URL of their pull request at their description section.
 
-    43. All remote repository merge messages MUST have their pull request count as their description footer.
+    43. All remote repository merge messages MUST have the 'merge' pseudo-environment count as their footer:
         - e.x: ( merge: 4 ).
 
 
