@@ -68,7 +68,7 @@ u---- nexus_wide_project_management_style_guide ----
     27. The 'signed off by' section MUST be the last section of the description comment and refer to the contributors who parted in the update.
 
     28. Issue references in pull requests MUST follow the following format:
-        - ( Issue Note | N : { Issue Number }  ).
+        - ( Issue Note | { Issue Number } ).
 
     29. If a update has been rejected or/and left undone, The branch related to the update MUST be deleted, the pull_request
         - MUST be closed and labled as 'rejected'
@@ -78,8 +78,14 @@ u---- nexus_wide_project_management_style_guide ----
         - ( excluding txt or documentation files )
 
     31. Issues naming conventions MUST follow the corressondig regular expression:
-        - (  { Issue Title } | N : { Issue Number } ),
-        - ( e.x: problem(docs): remove harsh rules | N : 3 ) .
+        - (  { Issue Title } | { Issue numeral count } ),
+        - ( e.x: problem(docs): remove harsh rules | 3 ) .
+
+    34. The issue __details__ comment must be formatted by the following topics:
+        - What is the assignment?
+        - What are the steps to accomplish?
+        - Why is this fixture necessary?
+        - What is the expected outcome?
 
     32. All issues MUST contain at least 1 comment.
 
