@@ -47,7 +47,7 @@
 
     21. All pull requests MUST have at least one comment before being merged.
 
-    22. Contributors MUST NOT list any of the ( fix ) or ( feat ) changes in the description comment of a pull request
+    22. Contributors MUST NOT directly list any of the ( fix ) or ( feat ) changes in the description comment of a pull request
         - They MUST be self_explanatory in the commit messages.
 
     23. All pull reqeusts MUST contain a well_formatted description comment.
