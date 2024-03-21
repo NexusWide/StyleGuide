@@ -58,6 +58,8 @@
 
     29. The pull_request description comment MUST always be the first comment.
 
+    32. pull_requests MUST be a group of ( fix ) tags which generate one MAJOR CHANGE or feat.
+
     30. The pull_request description comment MUST contain four sections:
         - What has changed ( API changes ).
         - What were the reasons behind the changes.
@@ -69,8 +71,6 @@
         - followed by the version number.
         - e.x: documentation changes description header would be: ( UDock | 1.0.0 ).
 
-    32. pull_requests MUST be a group of ( fix ) tags which generate one MAJOR CHANGE or feat.
-
     33. If a update has been rejected or/and left undone, The branch related to the update be deleted, the pull_request
          - MUST be closed and labled as ```Rejected```
          - ( The changelog comment MUST stay as it is. )
@@ -79,8 +79,6 @@
 
     35. All code MUST be reformatted and pass all the tests given by the GitHub Actions linter before being merged
         - ( excluding txt or documentation files )
-
-    36. Only compact changes after a merge are allowed to be patched and committed outside of branches by the project manager.
 
     37. Issues naming conventions MUST follow the corressondig regular expression: `{Issue Title} | N : {Issue Number}`, e.x: problem(docs): remove harsh rules | N : 1.
 
