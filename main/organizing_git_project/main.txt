@@ -92,7 +92,7 @@
 
     45. Push changes as often as possible, all the changes to the project ( including the ones that are rejected or/and aborted ) MUST be recorded.
 
-    46. All suspended  ( those that don't take any new update for a designated period of time ) projects MUST be archived and be followed up with
+    46. All suspended projects ( those that don't receive any new update for a designated period of time ) MUST be archived and be followed  with
         - a note text at the tail of their README file, elucidating the fact that the project have been archived.
 
     47. The Git commit messages are formatted by the https://www.conventionalcommits.org/en/v1.0.0/ conventions.
@@ -101,12 +101,12 @@
         - e.x: ( fix(docs): refactor grammar and add header ruleset ) is a bad commit message.
 
     49. All Git commit messages MUST have their branch name and the commit number -
-        - ( the number of times that you have committed to this branch, not the project ) as their footer
+        - ( the number of times that the contributor have committed to this branch ) as their footer
         - e.x: ( style_guide: 3 ).
 
     50. In the context of updating local repositories, use merge instead of rebase.
 
-    51. While performing any type of merging operation, adhere to the same guidelines as commit messages and provide the reason behind the commit
+    51. While performing any type of merging operation, adhere to the same guidelines as commit messages and provide the reason behind the merge
         - ( Updating docs, refactoring source code ):
         - e.x: fetch(merge): fix conflict with origin Main.Project .
 
@@ -114,5 +114,6 @@
 
     53. All remote repository merge messages MUST have the URL of their pull request at their description section.
 
+    54. All remote repository merge messages MUST have their pull request number as their footer.
 
 ---- END ----
