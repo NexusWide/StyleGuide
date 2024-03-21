@@ -62,10 +62,11 @@
 
     29. The pull_request description comment MUST always be the first comment.
 
-    30. The pull_request description comment MUST contain three sections:
+    30. The pull_request description comment MUST contain four sections:
         - What has changed ( API changes ).
-        - What were the reasons behind the change.
+        - What were the reasons behind the changes.
         - What results are expected.
+        - Which issue notes are affected by this update.
 
     31. The pull_request description comment MUST start with a header containing the update name
         - ( this is not the same as the pull_request title, it is any name that you would want to assign )
