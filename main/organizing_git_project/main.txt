@@ -1,4 +1,4 @@
----- nexus_wide_project_management_style_guide ----
+u---- nexus_wide_project_management_style_guide ----
 
     1. All NexusWide project repositories MUST contain a 'docs' directory.
 
@@ -33,7 +33,7 @@
         - back_end segment of the projects.
 
     15. Local branches MUST have their name set as the part of the API they are going to affect;
-        - e.x: documentations .
+        - ( e.x: documentations ) .
 
     16. Contributors MUST always create a pull request and branch before attempting to make their local changes and submit an update.
 
@@ -57,7 +57,7 @@
     25. The pull_request description comment MUST start with a header containing the update name tag
         - ( this is not the same as the pull_request title, it is any name tag that you would want to assign )
         - followed by the version number.
-        - e.x: documentation changes description header would be: ( UDock | 1.0.0 ).
+        - ( e.x: documentation changes description header would be: ( UDock | 1.0.0  ) ) .
 
     26. The pull_request description comment MUST contain four sections:
         - What has changed ( API changes ).
@@ -79,7 +79,7 @@
 
     31. Issues naming conventions MUST follow the corressondig regular expression:
         - (  { Issue Title } | N : { Issue Number } ),
-        - e.x: problem(docs): remove harsh rules | N : 3 .
+        - ( e.x: problem(docs): remove harsh rules | N : 3 ) .
 
     32. All issues MUST contain at least 1 comment.
 
@@ -93,23 +93,23 @@
     36. The Git commit messages are formatted by the https://www.conventionalcommits.org/en/v1.0.0/ conventions.
 
     37. Git commits MUST be as small and independent as possible, do not concatenate two possible commits together
-        - e.x: ( fix(docs): refactor grammar and add header ruleset ) is a bad commit message.
+        - ( e.x: ( fix(docs): refactor grammar and add header ruleset ) is a bad commit message ) .
 
-    38. All Git commit messages MUST have their branch name and the commit number -
+    38. All Git commit messages MUST have their branch name and the commit number
         - ( the number of times that the contributor have committed to this branch ) as their footer
-        - e.x: ( style_guide: 3 ).
+        - ( e.x: ( style_guide: 3 ) ).
 
     39. In the context of combining branches, use merge instead of rebase.
 
     40. While performing any type of merging operation, adhere to the same guidelines as commit messages and provide the reason behind the merge
-         - e.x: fetch(merge): fix conflict with origin main.project .
+         - ( e.x: fetch(merge): fix conflict with origin main.project ) .
 
     41. All remote repository merge messages MUST be the same as the title of their pull_request.
 
     42. All remote repository merge messages MUST have the URL of their pull request at their description section.
 
     43. All remote repository merge messages MUST have the 'merge' pseudo-environment count as their footer:
-        - e.x: ( merge: 4 ).
+        - ( e.x: ( merge: 4 ) ).
 
 
 ---- END ----
