@@ -16,8 +16,6 @@
 
     7. force_commits are not allowed in NexusWide repositories.
 
-    9. All commits MUST have a branch of their own, discussed and then merged to the main branch.
-
     10. All versions of the project repository MUST be controlled under semantic ( "https://semver.org/" ).
 
     11. The version numbering of the project MUST be split into two phases: ( pre_release phase, release phase ).
@@ -30,19 +28,19 @@
 
     15. The release phase version numbering is only mentioned in ( the changelog.md ) file.
 
-    16. release versioning and development versioning are seperate concepts, do not attempt to use release versioning while adding updates to the back_end segment of the projects.
+    16. release versioning and development versioning are seperate concepts,
+        - do not attempt to use release versioning while adding updates to the
+        - back_end segment of the projects.
 
     19. Local branches MUST have their name set as part of the API they are going to affect;
-            - e.x: docs;
-            - Note that this MAY not be the same as the commits scope.
-
-    18. Remote branches MUST be deleted after they have been merged into the master ( Main.Project ) branch in any form.
-
-    20. Contributors MUST create a new remote branch and pull request before merging, after they have made all the changes required to launch a new update title.
+        - e.x:
+        - Note that this MAY not be the same as the commits scope.
 
     21. Contributors MUST Always create a pull request and branch before attempting to make their local changes and propose an update.
 
-    22. Pull request titles MUST refer to the feat or MAJOR change commit message which is expected to be the outcome after all the to_do's are finished,
+    18. Remote branches MUST be deleted after they have been merged into the master ( Main.Project ) branch in any form.
+
+    22. Pull request titles MUST refer to the fix, feat or MAJOR change commit message which is expected to be the outcome after all the to_do's are finished,
 
     23. the convention of naming pull requests is the same as commit messages.
 
