@@ -50,7 +50,7 @@
     25. Contributors MUST NOT list any of the ( fix ) or ( feat ) changes in the special comments of a pull request ( i.e: to_do, description ),
         - They MUST be self_explanatory in the commit messages.
 
-    28. All pull reqeusts MUST contain a well_formatted description comment.
+    n28. All pull reqeusts MUST contain a well_formatted description comment.
 
     29. The pull_request description comment MUST always be the first comment.
 
@@ -66,7 +66,7 @@
         - Which issue notes are affected by this update
 
     31. Issue names in pull requests MUST follow the following format:
-        - ( Issue Note | N : {Issue Number}  ).
+        - ( Issue Note | N : { Issue Number }  ).
 
     54. All pull requests MUST have their pull request count as their footer.:
         - ( i.e: fetch: ... )
