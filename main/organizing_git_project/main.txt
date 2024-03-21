@@ -41,7 +41,7 @@
 
     26. Pull requests MUST NOT contain a to_do list, as that would make the existence of issues purposeless.
 
-    22. Pull request titles MUST refer to the fix, feat or MAJOR change commit message which is expected to be the outcome after all the issue to_do's are finished,
+    22. Pull request titles MUST refer to the fix, feat or MAJOR change commit message which is expected to be the outcome after all the issue to_dos are finished,
 
     23. the convention of naming pull requests is the same as commit messages.
 
