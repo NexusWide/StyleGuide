@@ -87,8 +87,6 @@
 
     37. Issues naming conventions MUST follow the corressondig regular expression: `{Issue Title} | N : {Issue Number}`, e.x: problem(docs): remove harsh rules | N : 1.
 
-    38. Issue titles naming follows the same convetions as commit message.
-
     39. All issues MUST contain at least 1 comment.
 
     40. The first comment of an issue is called the __details__ comment.
