@@ -101,7 +101,7 @@
     39. In the context of updating branches, use merge instead of rebase.
 
     40. While performing any type of merging operation, adhere to the same guidelines as commit messages and provide the reason behind the merge
-         - e.x: fetch(merge): fix conflict with origin Main.Project .
+         - e.x: fetch(merge): fix conflict with origin main.project .
 
     41. All remote repository merge messages MUST be the same as the title of their pull_request.
 
@@ -112,4 +112,3 @@
 
 
 ---- END ----
-?
