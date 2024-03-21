@@ -33,7 +33,7 @@
         - back_end segment of the projects.
 
     19. Local branches MUST have their name set as part of the API they are going to affect;
-        - e.x: documentations
+        - e.x: documentations.
 
     21. Contributors MUST Always create a pull request and branch before attempting to make their local changes and propose an update.
 
