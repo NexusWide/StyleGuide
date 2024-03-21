@@ -16,7 +16,7 @@
 
     7. force_commits are not allowed in NexusWide repositories.
 
-    8. All versions of the project repository MUST be controlled under semantic ( "https://semver.org/" ).
+    8. All versions of the project repository MUST be controlled under semantic ( 'https://semver.org/' ).
 
     9. The version numbering of the project MUST be split into two phases: ( pre_release phase, release phase ).
 
@@ -32,7 +32,7 @@
         - do not attempt to increment the release versioning while adding updates to the
         - back_end segment of the projects.
 
-    15. Local branches MUST have their name set as part of the API they are going to affect;
+    15. Local branches MUST have their name set as the part of the API they are going to affect;
         - e.x: documentations.
 
     16. Contributors MUST always create a pull request and branch before attempting to make their local changes and propose an update.
