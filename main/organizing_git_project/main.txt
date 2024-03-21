@@ -54,8 +54,8 @@
 
     24. The pull_request description comment MUST always be the first comment.
 
-    25. The pull_request description comment MUST start with a header containing the update name
-        - ( this is not the same as the pull_request title, it is any name that you would want to assign )
+    25. The pull_request description comment MUST start with a header containing the update name tag
+        - ( this is not the same as the pull_request title, it is any name tag that you would want to assign )
         - followed by the version number.
         - e.x: documentation changes description header would be: ( UDock | 1.0.0 ).
 
