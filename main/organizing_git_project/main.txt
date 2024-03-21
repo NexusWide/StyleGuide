@@ -64,7 +64,10 @@
         - What has changed ( API changes ).
         - What were the reasons behind the changes.
         - What results are expected.
-        - Which issue notes are affected by this update.
+        - Which issue notes are affected by this update
+
+    31. Issue names in pull requests MUST follow the following format:
+        - ( Issue Note | N : {Issue Number}  ).
 
     31. The pull_request description comment MUST start with a header containing the update name
         - ( this is not the same as the pull_request title, it is any name that you would want to assign )
@@ -77,7 +80,7 @@
 
     34. The ```signed off by``` section MUST be at the last section of the comment and refer to the contributors who parted in the update.
 
-    35. All code MUST be reformatted and pass all the tests given by the GitHub Actions linter before being merged
+    35. All code MUST be reformatted and pass all the tests given by the GitHub Actions before being merged
         - ( excluding txt or documentation files )
 
     37. Issues naming conventions MUST follow the corressondig regular expression: `{Issue Title} | N : {Issue Number}`, e.x: problem(docs): remove harsh rules | N : 1.
