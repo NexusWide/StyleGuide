@@ -101,14 +101,14 @@
     39. In the context of updating local repositories, use merge instead of rebase.
 
     40. While performing any type of merging operation, adhere to the same guidelines as commit messages and provide the reason behind the merge
-         - e.x: fetch(merge): fix conflict with origin Main.Project.
+         - e.x: fetch(merge): fix conflict with origin Main.Project .
 
     41. All remote repository merge messages MUST be the same as the title of their pull_request.
 
     42. All remote repository merge messages MUST have the URL of their pull request at their description section.
 
     43. All remote repository merge messages MUST have their pull request count as their description footer.
-        - e.x: ( merge: 4 )
+        - e.x: ( merge: 4 ).
 
 
 ---- END ----
