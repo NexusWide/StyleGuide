@@ -68,20 +68,17 @@
     31. Issue names in pull requests MUST follow the following format:
         - ( Issue Note | N : { Issue Number }  ).
 
-    54. All pull requests MUST have their pull request count as their footer.:
-        - ( i.e: fetch: ... )
-
     33. If a update has been rejected or/and left undone, The branch related to the update MUST be deleted, the pull_request
-        - MUST be closed and labled as ```Rejected```
-        - ( The description comment MUST stay as it is. )
+        - MUST be closed and labled as 'rejected'
+        - ( The description comment MUST stay as is ).
 
-    34. The ```signed off by``` section MUST be at the last section of the comment and refer to the contributors who parted in the update.
+    34. The 'signed off by' section MUST be at the last section of the comment and refer to the contributors who parted in the update.
 
     35. All code MUST be reformatted and pass all the tests given by the GitHub Actions before being merged
         - ( excluding txt or documentation files )
 
     37. Issues naming conventions MUST follow the corressondig regular expression:
-        - `{Issue Title} | N : {Issue Number}`, e.x: problem(docs): remove harsh rules | N : 1.
+        - (  { Issue Title } | N : { Issue Number } ), e.x: problem(docs): remove harsh rules | N : 1.
 
     39. All issues MUST contain at least 1 comment.
 
