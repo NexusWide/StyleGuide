@@ -73,8 +73,8 @@
         - ( i.e: fetch: ... )
 
     33. If a update has been rejected or/and left undone, The branch related to the update MUST be deleted, the pull_request
-         - MUST be closed and labled as ```Rejected```
-         - ( The description comment MUST stay as it is. )
+        - MUST be closed and labled as ```Rejected```
+        - ( The description comment MUST stay as it is. )
 
     34. The ```signed off by``` section MUST be at the last section of the comment and refer to the contributors who parted in the update.
 
