@@ -14,7 +14,7 @@
 
     6. All NexusWide_owned repositories MUST be licensed under ( Creative Commons Zero v1.0 Universal ).
 
-    7. force_commits are not allowed in NexusWide repositories.
+    7. Force_commits are not allowed in NexusWide repositories.
 
     8. All versions of the project repository MUST be controlled under semantic versioning ( 'https://semver.org/' ).
 
