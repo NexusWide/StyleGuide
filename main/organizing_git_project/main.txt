@@ -7,7 +7,7 @@
 
     3. All NexusWide project repositories MUST contain a 'Security Policy' file.
 
-    4. All of the following segments: 'Security Policies', 'Code of Conduct', 'Contributing Guidelines', and 'Terms of Service'
+    4. All of the following segments: 'Security Policy', 'Code of Conduct', 'Contributing Guidelines', and 'Terms of Service'
         - MUST be located within the 'docs' directory.
 
     5. Only the 'License' file is permitted to be located in the main directory of the repository.
