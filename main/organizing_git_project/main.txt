@@ -132,10 +132,12 @@
 
     51. All NexusWide Kanban card items MUST be assigned to a contributor ( assignee ).
 
-    50. All NexusWide Kanban card names must adhere to the NexusWide Git commit message guidelines.
+    50. All NexusWide Kanban card names MUST adhere to the NexusWide Git commit message guidelines.
 
-    51. All NexusWide Kanban card names must be the name of the issue which is going to be produced
-        - after the item have reached the ( In Progress  ) state without the issue number.
+    51. All NexusWide Kanban card names MUST be the name of the issue which is going to be produced
+        - after the item have reached the ( In Progress ) state without the issue number.
+
+    52. All NexusWide Kanban cards MUST have a description section aligned.
 
 
 ---- END ----
