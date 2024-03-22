@@ -22,7 +22,7 @@
 
     10. During the pre_release phase all changes in the development process are a part of the version numbering.
 
-    11. During the release phase, only the user_side features are a part of the version numbering.
+    11. The release version numbering MUST govern only the user_side features.
 
     12. When a project reaches the release phase, a ( changelog.md ) file MUST be implemented in the repository ( docs ) directory.
 
