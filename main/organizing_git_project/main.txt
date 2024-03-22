@@ -43,7 +43,7 @@
 
     19. Pull request titles MUST refer to the fix, feat or MAJOR change commit message which is expected to be the outcome after all the issue to_dos are finished.
 
-    20. the convention of naming pull requests is the same as commit messages.
+   20. the convention of naming pull requests is the same as commit messages.
 
     21. All pull requests MUST have at least one comment before being merged.
 
