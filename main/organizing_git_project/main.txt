@@ -81,13 +81,13 @@
         - (  { Issue Title } | { Issue numeral count } ),
         - ( e.x: problem(docs): remove harsh rules | 3 ) .
 
-    32. The issue __details__ comment must be formatted by the following topics:
+    32. The issue __details__ comment MUST be formatted by the following topics:
         - What is the assignment?
         - What are the steps to accomplish?
         - Why is this fixture necessary?
         - What is the expected outcome?
 
-    33. The issue __details__ comment must contain a contributor name at its last section,
+    33. The issue __details__ comment MUST contain a contributor name at its last section,
         - in order to asign the contributor to the cited task.
 
     33. All issues MUST contain at least 1 comment.
@@ -135,12 +135,9 @@
 
     51. All NexusWide Kanban card items MUST be assigned to a contributor ( assignee ).
 
-    47. All NexusWide Kanban card items MUST be prioritized and labeled based on the tags offered by the NexusWide main Kanban template.
-    48. All NexusWide Kanban card items MUST be measured in size and labeled based on the tags offered by the NexusWide main Kanban template.
     50. All NexusWide Kanban card names MUST adhere to the NexusWide Git commit message guidelines.
 
     51. All NexusWide Kanban card names MUST be the name of the issue which is going to be produced
-        - after the item have reached the ( In Progress ) state without the issue number.
 
     52. All NexusWide Kanban cards MUST have a description section aligned.
 
