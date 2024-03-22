@@ -129,7 +129,7 @@
 
     48. The NexusWide Kanban board ( Wont Fix, Ready, Backlog, Done ) columns MUST NOT introduce any card amount limitations.
 
-    49. All NexusWide card items MUST be converted to issues when they reach the ( In Progress ) state.
+    49. All NexusWide card items MUST be converted to issues when they reach the ( Ready ) state.
 
     54. All NexusWide Kanban card names MUST adhere to the NexusWide Git commit message guidelines.
 
