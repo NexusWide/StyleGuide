@@ -84,6 +84,7 @@
     32. The issue __details__ comment MUST be formatted by the following topics:
         - What is the assignment?
         - What are the steps to accomplish?
+            ( task list )
         - Why is this fixture necessary?
         - What is the expected outcome?
 
