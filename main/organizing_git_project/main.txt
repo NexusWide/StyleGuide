@@ -118,7 +118,8 @@
 
     44. All remote repository merge messages MUST have the URL of their pull request at their description section.
 
-    45. All remote repository merge messages MUST have the 'merge' pseudo-environment count as their footer:
+    45. All merges messages ( Including the remote ones ) MUST have the 'merge' pseudo-environment count as their footer:
+        - ( The number of times that a merge operation was conducted in the repository )
         - ( e.x: ( merge: 4 ) ).
 
     46. All NexusWide repositories MUST have a Kanban board derived from the NexusWide main Kanban board template.
