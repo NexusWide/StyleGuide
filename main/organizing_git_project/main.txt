@@ -43,7 +43,7 @@
 
     19. Pull request titles MUST refer to the fix, feat or MAJOR change commit message which is expected to be the outcome after all the issue to_dos are finished.
 
-   20. the convention of naming pull requests is the same as commit messages.
+    20. the convention of naming pull requests is the same as commit messages.
 
     21. All pull requests MUST have at least one comment before being merged.
 
@@ -129,18 +129,12 @@
 
     49. All NexusWide card items MUST be converted to issues when they reach the ( In Progress ) state.
 
-    50. The issues generated from a Kanban card MUST have the same name as the card.
-
-    51. The issues generated from a Kanban card MUST have the same __details__ comment content as the card description.
-
-    52. All NexusWide card items MUST be moved to the ( Done ) column after the corresponding pull request have been merged.
-
-    53. All NexusWide card items MUST be moved to the ( Wont Fix ) column if the update have been rejected.
-
     54. All NexusWide Kanban card names MUST adhere to the NexusWide Git commit message guidelines.
 
-    55. All NexusWide Kanban card names MUST be the name of the issue which is going to be produced
+    55. All NexusWide Kanban card names MUST be the name of the issue which is going to be
         - after the item have reached the ( In Progress ) state, omitting the issue number.
+
+    50. The issues generated from a Kanban card MUST have the same name as the card.
 
     56. All NexusWide Kanban cards MUST have a description section aligned.
 
@@ -148,6 +142,12 @@
 
     58. All NexusWide Kanban card descriptions MUST be the description of the issue which is going to be produced
         - after the item have reached the ( In Progress ) state.
+
+    51. The issues generated from a Kanban card MUST have the same __details__ comment content as the card description.
+
+    52. All NexusWide card items MUST be moved to the ( Done ) column after the corresponding pull request have been merged.
+
+    53. All NexusWide card items MUST be moved to the ( Wont Fix ) column if the update have been rejected.
 
     59. All NexusWide Kanban card items after/on the ( Ready ) column MUST be assigned a start date.
 
