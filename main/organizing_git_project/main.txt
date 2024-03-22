@@ -143,6 +143,7 @@
 
     53. All NexusWide Kanban card description formattings MUST be the same as the issue formatting guidelines.
 
+    48. All NexusWide Kanban card items MUST be measured in size and labeled based on the tags offered by the NexusWide main Kanban template.
 
 
 ---- END ----
