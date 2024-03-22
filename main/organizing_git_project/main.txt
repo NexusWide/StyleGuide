@@ -122,11 +122,9 @@
 
     45. All NexusWide repositories MUST have a Kanban board derived from the NexusWide main Kanban board template.
 
-    47. All NexusWide Kanban card items MUST be prioritized and labeled based on the tags offered by the NexusWide main Kanban template.
     54. The NexusWide Kanban board ( Ready, In Progress, In Review ) columns MUST be limited to one card only.
             - ( Only one update topic is allowed to be published at a time. )
 
-    48. All NexusWide Kanban card items MUST be measured in size and labeled based on the tags offered by the NexusWide main Kanban template.
     55. NexusWide Kanban board ( Wont Fix, Backlog, Done ) columns MUST NOT introduce any card amount limitation.
         - ( Ideas must be always cheap to introduce  ).
 
