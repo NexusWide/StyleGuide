@@ -95,15 +95,15 @@
     33. The issue __details__ comment MUST contain a contributor name at its last section,
         - in order to asign the contributor to the cited task.
 
-    36. Push changes as often as possible, all the changes to the project ( including the ones that are rejected or/and aborted ) MUST be recorded.
-
-    37. All suspended projects ( those that don't receive any new update for a designated period of time ) MUST be archived and followed by
-        - a note text at the tail of their README file, elucidating the fact that the project have been archived.
-
     38. The Git commit messages are formatted by the https://www.conventionalcommits.org/en/v1.0.0/ conventions.
 
     39. Git commits MUST be as small and independent as possible, do not concatenate two possible commits together
         - ( e.x: ( fix(docs): refactor grammar and add header ruleset ) is a bad commit message ) .
+
+    36. Push changes as often as possible, all the changes to the project ( including the ones that are rejected or/and aborted ) MUST be recorded.
+
+    37. All suspended projects ( those that don't receive any new update for a designated period of time ) MUST be archived and followed by
+        - a note text at the tail of their README file, elucidating the fact that the project have been archived.
 
     40. All Git commit messages MUST have their branch name and the commit number
         - ( the number of times that the contributor have committed to this branch ) as their footer
