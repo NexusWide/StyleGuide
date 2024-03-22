@@ -157,7 +157,7 @@
 
     62. All NexusWide Kanban card items in the ( Ready ) column MUST be prioritized and labeled based on the tags offered by the NexusWide main Kanban template.
 
-    63. All NexusWide Kanban card items in the ( Backlog ) MUST be measured in size and labeled based on the tags offered by the NexusWide main Kanban template.
+    63. All NexusWide Kanban card items in the ( Backlog ) column MUST be measured in size and labeled based on the tags offered by the NexusWide main Kanban template.
 
 
 ---- END ----
