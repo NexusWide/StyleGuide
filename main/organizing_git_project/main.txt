@@ -81,6 +81,10 @@
         - (  { Issue Title } | { Issue numeral count } ),
         - ( e.x: problem(docs): remove harsh rules | 3 ) .
 
+    34. All issues MUST contain at least 1 comment.
+
+    35. The first comment of an issue MUST be the __details__ comment.
+
     32. The issue __details__ comment MUST be formatted by the following topics:
         - What is the assignment?
         - What are the steps to accomplish?
@@ -90,10 +94,6 @@
 
     33. The issue __details__ comment MUST contain a contributor name at its last section,
         - in order to asign the contributor to the cited task.
-
-    34. All issues MUST contain at least 1 comment.
-
-    35. The first comment of an issue MUST be the __details__ comment.
 
     36. Push changes as often as possible, all the changes to the project ( including the ones that are rejected or/and aborted ) MUST be recorded.
 
