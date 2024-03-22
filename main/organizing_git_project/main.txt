@@ -134,5 +134,8 @@
 
     50. All NexusWide Kanban card names must adhere to the NexusWide Git commit message guidelines.
 
+    51. All NexusWide Kanban card names must be the name of the issue which is going to be produced
+        - after the item have reached the ( In Progress  ) state without the issue number.
+
 
 ---- END ----
