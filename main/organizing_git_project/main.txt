@@ -134,6 +134,7 @@
     50. All NexusWide Kanban card items MUST be assigned a due date.
 
     51. All NexusWide Kanban card items MUST be assigned to a contributor ( assignee ).
+    58. The issues generated from a Kanban card MUST have the same description as the card.
 
     50. All NexusWide Kanban card names MUST adhere to the NexusWide Git commit message guidelines.
 
