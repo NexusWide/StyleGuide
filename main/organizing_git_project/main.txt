@@ -129,13 +129,13 @@
 
     49. All NexusWide card items MUST be converted to issues when they reach the ( In Progress ) state.
 
-    50. All NexusWide card items MUST be moved to the ( Done ) column after the corresponding pull request have been merged.
-
-    51. All NexusWide card items MUST be moved to the ( Wont Fix ) column if the update have been rejected.
-
     52. The issues generated from a Kanban card MUST have the same name as the card.
 
     53. The issues generated from a Kanban card MUST have the same __details__ comment content as the card.
+
+    50. All NexusWide card items MUST be moved to the ( Done ) column after the corresponding pull request have been merged.
+
+    51. All NexusWide card items MUST be moved to the ( Wont Fix ) column if the update have been rejected.
 
     54. All NexusWide Kanban card names MUST adhere to the NexusWide Git commit message guidelines.
 
@@ -149,15 +149,15 @@
     58. All NexusWide Kanban card descriptions MUST be the description of the issue which is going to be produced
         - after the item have reached the ( In Progress ) state.
 
-    59. All NexusWide Kanban card items in the ( Ready ) column MUST be assigned a start date.
+    59. All NexusWide Kanban card items after/on the ( Ready ) column MUST be assigned a start date.
 
-    60. All NexusWide Kanban card items in the ( Ready ) column MUST be assigned a due date.
+    60. All NexusWide Kanban card items after/on the ( Ready ) column MUST be assigned a due date.
 
-    61. All NexusWide Kanban card items in the ( Ready ) column MUST be assigned to a contributor ( assignee ).
+    61. All NexusWide Kanban card items after/on the ( Ready ) column MUST be assigned to a contributor ( assignee ).
 
-    62. All NexusWide Kanban card items in the ( Ready ) column MUST be prioritized and labeled based on the tags offered by the NexusWide main Kanban template.
+    62. All NexusWide Kanban card items after/on the ( Ready ) column MUST be prioritized and labeled based on the tags offered by the NexusWide main Kanban template.
 
-    63. All NexusWide Kanban card items in the ( Ready ) column MUST be measured in size and labeled based on the tags offered by the NexusWide main Kanban template.
+    63. All NexusWide Kanban card items after/on the ( Ready ) column MUST be measured in size and labeled based on the tags offered by the NexusWide main Kanban template.
 
 
 ---- END ----
