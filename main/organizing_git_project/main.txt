@@ -125,8 +125,7 @@
     54. The NexusWide Kanban board ( Ready, In Progress, In Review ) columns MUST be limited to one card only.
             - ( Only one update topic is allowed to be published at a time. )
 
-    55. NexusWide Kanban board ( Wont Fix, Backlog, Done ) columns MUST NOT introduce any card amount limitation.
-        - ( Ideas must be always cheap to introduce  ).
+    55. The NexusWide Kanban board ( Wont Fix, Backlog, Done ) columns MUST NOT introduce any card amount limitations.
 
     56. All NexusWide card items MUST be converted to issues when they reach the ( In Progress ) state.
 
