@@ -131,9 +131,9 @@
 
     49. All NexusWide card items MUST be converted to issues when they reach the ( In Progress ) state.
 
-    50. The issues generated from a Kanban card MUST have the same name as the card.
+    50. The issue generated from a Kanban card MUST have the same name as the card.
 
-    51. The issues generated from a Kanban card MUST have the same __details__ comment content as the card.
+    51. The issue generated from a Kanban card MUST have the same __details__ comment content as the card.
 
     52. All NexusWide card items MUST be moved to the ( Done ) column after the corresponding pull request have been merged.
 
