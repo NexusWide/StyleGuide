@@ -122,7 +122,7 @@
 
     45. All NexusWide repositories MUST have a Kanban board derived from the NexusWide main Kanban board template.
 
-    47. All NexusWide Kanban cards MUST be prioritized based on the tags offered by the NexusWide main Kanban template.
+    47. All NexusWide Kanban cards MUST be prioritized and labeled based on the tags offered by the NexusWide main Kanban template.
 
     48. All NexusWide Kanban card items MUST be measured in size and labeled based on the tags offered by the NexusWide main Kanban template.
 
