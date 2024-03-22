@@ -43,7 +43,7 @@
 
     19. Pull request titles MUST refer to the fix, feat or MAJOR change commit message which is expected to be the outcome after all the issue to_dos are finished.
 
-    20 the convention of naming pull requests is the same as commit messages.
+    20. the convention of naming pull requests is the same as commit messages.
 
     21. All pull requests MUST have at least one comment before being merged.
 
@@ -57,7 +57,7 @@
     25. The pull_request description comment MUST start with a header containing the update name tag
         - ( this is not the same as the pull_request title, it is any name tag that you would want to assign )
         - followed by the version number.
-        - ( e.x: documentation changes description header would be: ( UDock | 1.0.0  ) ) .
+        - ( e.x: documentation changes description header would be: ( UDock | 1.0.0 ) ) .
 
     26. The pull_request description comment MUST contain four sections:
         - What has changed ( API changes ).
@@ -129,13 +129,13 @@
 
     49. All NexusWide card items MUST be converted to issues when they reach the ( In Progress ) state.
 
-    52. The issues generated from a Kanban card MUST have the same name as the card.
+    50. The issues generated from a Kanban card MUST have the same name as the card.
 
-    53. The issues generated from a Kanban card MUST have the same __details__ comment content as the card.
+    51. The issues generated from a Kanban card MUST have the same __details__ comment content as the card.
 
-    50. All NexusWide card items MUST be moved to the ( Done ) column after the corresponding pull request have been merged.
+    52. All NexusWide card items MUST be moved to the ( Done ) column after the corresponding pull request have been merged.
 
-    51. All NexusWide card items MUST be moved to the ( Wont Fix ) column if the update have been rejected.
+    53. All NexusWide card items MUST be moved to the ( Wont Fix ) column if the update have been rejected.
 
     54. All NexusWide Kanban card names MUST adhere to the NexusWide Git commit message guidelines.
 
