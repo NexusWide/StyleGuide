@@ -135,7 +135,7 @@
 
     52. The issues generated from a Kanban card MUST have the same name as the card.
 
-    53. The issues generated from a Kanban card MUST have the same description as the card.
+    53. The issues generated from a Kanban card MUST have the same __details__ comment content as the card.
 
     54. All NexusWide Kanban card names MUST adhere to the NexusWide Git commit message guidelines.
 
