@@ -134,9 +134,3 @@
 
 
 ---- END ----
-
-
-priority setting | DONE.
-time management | DONE.
-task assignment | READY.
-formatting | READY.
