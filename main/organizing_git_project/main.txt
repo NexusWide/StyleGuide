@@ -76,7 +76,6 @@
         - ( The description comment MUST stay as is ).
 
     30. All code MUST be reformatted and pass all the tests given by the GitHub Actions before being merged
-        - ( excluding txt or documentation files )
 
     31. Issues naming conventions MUST follow the corressondig regular expression:
         - (  { Issue Title } | { Issue numeral count } ),
