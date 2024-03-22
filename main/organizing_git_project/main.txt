@@ -90,74 +90,74 @@
     33. The issue __details__ comment MUST contain a contributor name at its last section,
         - in order to asign the contributor to the cited task.
 
-    33. All issues MUST contain at least 1 comment.
+    34. All issues MUST contain at least 1 comment.
 
-    34. The first comment of an issue MUST be the __details__ comment.
+    35. The first comment of an issue MUST be the __details__ comment.
 
-    35. Push changes as often as possible, all the changes to the project ( including the ones that are rejected or/and aborted ) MUST be recorded.
+    36. Push changes as often as possible, all the changes to the project ( including the ones that are rejected or/and aborted ) MUST be recorded.
 
-    36. All suspended projects ( those that don't receive any new update for a designated period of time ) MUST be archived and followed by
+    37. All suspended projects ( those that don't receive any new update for a designated period of time ) MUST be archived and followed by
         - a note text at the tail of their README file, elucidating the fact that the project have been archived.
 
-    37. The Git commit messages are formatted by the https://www.conventionalcommits.org/en/v1.0.0/ conventions.
+    38. The Git commit messages are formatted by the https://www.conventionalcommits.org/en/v1.0.0/ conventions.
 
-    38. Git commits MUST be as small and independent as possible, do not concatenate two possible commits together
+    39. Git commits MUST be as small and independent as possible, do not concatenate two possible commits together
         - ( e.x: ( fix(docs): refactor grammar and add header ruleset ) is a bad commit message ) .
 
-    39. All Git commit messages MUST have their branch name and the commit number
+    40. All Git commit messages MUST have their branch name and the commit number
         - ( the number of times that the contributor have committed to this branch ) as their footer
         - ( e.x: ( style_guide: 3 ) ).
 
-    40. In the context of combining branches, use merge instead of rebase.
+    41. In the context of combining branches, use merge instead of rebase.
 
-    41. While performing any type of merging operation, adhere to the same guidelines as commit messages and provide the reason behind the merge
+    42. While performing any type of merging operation, adhere to the same guidelines as commit messages and provide the reason behind the merge
          - ( e.x: fetch(merge): fix conflict with origin main.project ) .
 
-    42. All remote repository merge messages MUST be the same as the title of their pull_request.
+    43. All remote repository merge messages MUST be the same as the title of their pull_request.
 
-    43. All remote repository merge messages MUST have the URL of their pull request at their description section.
+    44. All remote repository merge messages MUST have the URL of their pull request at their description section.
 
-    44. All remote repository merge messages MUST have the 'merge' pseudo-environment count as their footer:
+    45. All remote repository merge messages MUST have the 'merge' pseudo-environment count as their footer:
         - ( e.x: ( merge: 4 ) ).
 
-    45. All NexusWide repositories MUST have a Kanban board derived from the NexusWide main Kanban board template.
+    46. All NexusWide repositories MUST have a Kanban board derived from the NexusWide main Kanban board template.
 
-    54. The NexusWide Kanban board ( Ready, In Progress, In Review ) columns MUST be limited to one card only.
+    47. The NexusWide Kanban board ( Ready, In Progress, In Review ) columns MUST be limited to one card only.
             - ( Only one update topic is allowed to be published at a time. )
 
-    55. The NexusWide Kanban board ( Wont Fix, Backlog, Done ) columns MUST NOT introduce any card amount limitations.
+    48. The NexusWide Kanban board ( Wont Fix, Backlog, Done ) columns MUST NOT introduce any card amount limitations.
 
-    56. All NexusWide card items MUST be converted to issues when they reach the ( In Progress ) state.
+    49. All NexusWide card items MUST be converted to issues when they reach the ( In Progress ) state.
 
-    57. All NexusWide card items MUST be moved to the ( Done ) column after the corresponding pull request have been merged.
+    50. All NexusWide card items MUST be moved to the ( Done ) column after the corresponding pull request have been merged.
 
-    58. All NexusWide card items MUST be moved to the ( Wont Fix ) column if the update have been rejected.
+    51. All NexusWide card items MUST be moved to the ( Wont Fix ) column if the update have been rejected.
 
-    57. The issues generated from a Kanban card MUST have the same name as the card.
+    52. The issues generated from a Kanban card MUST have the same name as the card.
 
-    58. The issues generated from a Kanban card MUST have the same description as the card.
+    53. The issues generated from a Kanban card MUST have the same description as the card.
 
-    50. All NexusWide Kanban card names MUST adhere to the NexusWide Git commit message guidelines.
+    54. All NexusWide Kanban card names MUST adhere to the NexusWide Git commit message guidelines.
 
-    51. All NexusWide Kanban card names MUST be the name of the issue which is going to be produced
+    55. All NexusWide Kanban card names MUST be the name of the issue which is going to be produced
         - after the item have reached the ( In Progress ) state, omitting the issue number.
 
-    52. All NexusWide Kanban cards MUST have a description section aligned.
+    56. All NexusWide Kanban cards MUST have a description section aligned.
 
-    53. All NexusWide Kanban card description formattings MUST be the same as the issue __details__ comment formatting guidelines.
+    57. All NexusWide Kanban card description formattings MUST be the same as the issue __details__ comment formatting guidelines.
 
-    54. All NexusWide Kanban card descriptions MUST be the description of the issue which is going to be produced
+    58. All NexusWide Kanban card descriptions MUST be the description of the issue which is going to be produced
         - after the item have reached the ( In Progress ) state.
 
-    49. All NexusWide Kanban card items MUST be assigned a start date.
+    59. All NexusWide Kanban card items MUST be assigned a start date.
 
-    50. All NexusWide Kanban card items MUST be assigned a due date.
+    60. All NexusWide Kanban card items MUST be assigned a due date.
 
-    51. All NexusWide Kanban card items MUST be assigned to a contributor ( assignee ).
+    61. All NexusWide Kanban card items MUST be assigned to a contributor ( assignee ).
 
-    47. All NexusWide Kanban card items MUST be prioritized and labeled based on the tags offered by the NexusWide main Kanban template.
+    62. All NexusWide Kanban card items MUST be prioritized and labeled based on the tags offered by the NexusWide main Kanban template.
 
-    48. All NexusWide Kanban card items MUST be measured in size and labeled based on the tags offered by the NexusWide main Kanban template.
+    63. All NexusWide Kanban card items MUST be measured in size and labeled based on the tags offered by the NexusWide main Kanban template.
 
 
 ---- END ----
