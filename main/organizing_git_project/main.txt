@@ -128,9 +128,15 @@
 
     49. All NexusWide Kanban card items MUST be assigned a start date.
 
-    50. All NexusWide Kanban card itmes MUST be assigned a due date.
+    50. All NexusWide Kanban card items MUST be assigned a due date.
 
     50. All NexusWide Kanban card names must adhere to the NexusWide Git commit message guidelines.
 
 
 ---- END ----
+
+
+priority setting | DONE.
+time management | DONE.
+task assignment | READY.
+formatting | READY.
