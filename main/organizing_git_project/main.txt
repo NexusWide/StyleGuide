@@ -120,7 +120,7 @@
     45. All remote repository merge messages MUST have the 'merge' pseudo-environment count as their footer:
         - ( e.x: ( merge: 4 ) ).
 
-    46. All NexusWide repositories MUST have a Kanban board derived from the NexusWide main Kanban board template.
+    46. All NexusWide repositories MUST have a Kanban board project derived from the NexusWide main Kanban board template.
 
     47. The NexusWide Kanban board ( In Progress, In Review ) columns MUST be limited to one card only.
             - ( Only one update topic is allowed to be published at a time. )
