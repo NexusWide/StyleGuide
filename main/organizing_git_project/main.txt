@@ -77,7 +77,7 @@
 
     30. All code MUST be reformatted and pass all the tests given by the GitHub Actions before being merged
 
-    31. Issues naming conventions MUST follow the corressondig regular expression:
+    31. Issue names MUST follow the corresponding regular expression:
         - (  { Issue Title } | { Issue numeral count } ),
         - ( e.x: problem(docs): remove harsh rules | 3 ) .
 
