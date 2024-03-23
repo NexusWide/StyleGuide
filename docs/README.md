@@ -7,6 +7,16 @@
 ---
 
 
+# What are the conventions used throughout the documentations?
+---
+
+
+> All of the used terms such as `MUST`, `MUST NOT` and `MAY NOT`...
+
+
+---
+
+
 <br>
 
 
