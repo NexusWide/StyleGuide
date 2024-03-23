@@ -1,4 +1,4 @@
-# Welcome to NexusWide Style Guide Repository for Software Engineers.
+# What is the purpose of this repository?
 
 
 ---
