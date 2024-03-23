@@ -7,11 +7,14 @@
 ---
 
 
+<br>
+
+
 # What are the conventions used throughout the documentations?
 ---
 
 
-> All of the used terms such as `MUST`, `MUST NOT` and `MAY NOT`...
+> All of the used terms such as `MUST`, `MUST NOT` and `MAY NOT` must be interpreted as described in the [Internet Network Group RFC ( Request For Comment  ) Number 2119](https://datatracker.ietf.org/doc/html/rfc2119)
 
 
 ---
