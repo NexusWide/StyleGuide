@@ -7,43 +7,169 @@
     % 3. Copyright.
     % 4. Dedication.
     % 5. Contents.
-    % 6. Lists of tables and figures.
-    % 7. preface.
+    % 6. preface.
 
 
 %
-\documentclass{scrarticle}
+\documentclass[13pt]{scrarticle}
 %
 
 
 
 % text_formatting_oriented_packages packages.
+\usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
 \usepackage{microtype}
 \usepackage[none]{hyphenat}
+\usepackage{parskip}
+\usepackage[onehalfspacing]{setspace}
 %
+
 
 
 % graphical_formatting_oriented packages.
 \usepackage{graphicx}
 \usepackage{xcolor}
 \usepackage{fancyhdr}
+\usepackage{tikzsymbols}
 %
 
 
 %
-\newcommand{\name}[1]{{\textsc{#1}}}
+\newcommand{\header}[1]{\hspace{5.3cm} \textsf{#1} \relax{}}
+\newcommand{\important}[1]{\textit{#1}}
+\newcommand{\name}[1]{\color{red} {\textup{#1}}\color{black}}
+\newcommand{\response}[1]{\Tribar[2][white][yellow][red]\color{blue} #1}
+%
+
+
+%
+\renewcommand{\familydefault}{\sfdefault}
+\renewcommand{\leftmark}{NexusWide Project Management Guidelines}
+
+\addto\captionsenglish{%
+    \renewcommand{\contentsname}{\hspace{4.3cm} Table Of Contents}
+}%
+
+\setlength{\parindent}{0cm}
+\linespread{1.3}
+%
+
+
+%
+\title{NexusWide Project Managemet Guidelines}
+\author{Nima Bavar}
+\date{\today}
 %
 
 
 \begin{document}
+    \raggedright
+    \pagestyle{fancy}
 
 
-    \begin{figure}[h!]
+    \fancyhf{}
+    \pagestyle{fancy}
+    \chead{\leftmark}
+    \cfoot{\thepage}
 
-        \includegraphics[width=20cm]{/home/nimabavar/Desktop/work/diary/projects/nexus_wide/repositories/style_guide/attachments/nexus_wide_logo.png}
+    \pagenumbering{gobble}
 
+
+    \thispagestyle{empty}
+    \pagecolor{white}
+
+
+    \begin{figure}[t]
+        \centering \includegraphics[width=14cm]{/home/nimabavar/Desktop/work/diary/projects/nexus_wide/repositories/style_guide/attachments/nexus_wide_logo.png}
     \end{figure}
+
+    \centering{\name{ \color{red} \hspace{2.4cm} Research Institute Presents.}} \newline
+
+
+    \thispagestyle{empty}
+    \maketitle{}
+
+
+    \newpage
+    \thispagestyle{fancy}
+    \pagenumbering{gobble}
+    \setcounter{page}{2}
+
+
+    \section*{Copyright}
+
+
+    \raggedright
+    The corresponding documentation literature and all the containment's, are certified under the \name{Creative Commons Zero v1.0 Universal License} ,
+    with the elucidation of the actuality that all branches of \name{modification}, \name{distribution}, \name{patent}, \name{commercial } and \name{private usage } are entirely authorized.
+    \newline
+
+    This fragment of dossier is submitted \important{AS IS},
+    you are liberate to manufacture any category of modifications you find essential for your individuality or organization.
+    \newline
+
+    However, this aforementioned fact loose the \name{NexusWide } team from any fork of provisioned liability or warranty regarding the usage scenario of such composition,
+    denoting that we are not held accountable for whichever harm caused by the employment/misemployment of this attestation in any form,
+    therefore we demand you to cautiously study the above-mentioned license sanctions if the decision for calibrating this file in a
+    personal or officially concealed environment was made. \newline
+
+    Accordingly, the \name{NexusWide } research team welcomes all enhancement ideations announced or pushed to the official repository of the imminent writing.
+    \newline
+
+
+    \newpage
+    \thispagestyle{empty}
+    \pagenumbering{Roman}
+
+
+
+    \begin{centering}
+        \vspace*{7cm}
+      
+        \hspace{1.0cm}
+        Dedicated to all the computation enthusiastics \newline
+        \hspace*{2.5cm}
+        and \newline
+        \hspace{0.3cm}
+        Free and Open Source Software developers around the globe.
+
+    \end{centering}
+
+
+    \newpage
+    \pagenumbering{roman}
+    \thispagestyle{fancy}
+    \setcounter{page}{4}
+
+
+
+    \tableofcontents
+
+
+    \newpage
+    \thispagestyle{fancy}
+    \pagenumbering{arabic}
+    \setcounter{page}{1}
+
+    \header{\section{Preface}}
+
+
+    \name{Durability } and \name{consistency } are the two most prominent chunk of a bested project management course,
+    and no project is capable of achieving satisfactory outcomes without proper administration. \newline
+
+    One branch of behavior that can further advance durability by obligating consistency in the best feasible manner,
+    is including consequential regulations and laws,
+    which is preserved by affixing sharp style guides to the association. \newline
+
+    Thereby to achieve pleasing result in order to avail the esteem and sagacious community of \name{FOSS}\footnote{Free Open and Source Software.} with our works of knowledge and researches,
+    and most essentially, provide value to our respected readers and users,
+    we shall possess our own particular style guides for the contributors to adhere. \newline
+
+    The foundation of the following pertinent standards and rules, was gathered by the acknowledgment of the fore-mentioned
+    principles, with notable absorption to the domain of project management. \newline
+
+    We \important{oblige} all of our contributors to adhere to them, in order to acquire accommodate and flaw-free products.
 
 
 \end{document}
