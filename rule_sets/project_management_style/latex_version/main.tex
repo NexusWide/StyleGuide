@@ -29,8 +29,8 @@
 
 % graphical_formatting_oriented packages.
 \usepackage{graphicx}
-\usepackage{xcolor}
 \usepackage{fancyhdr}
+\usepackage{xcolor}
 \usepackage{tikzsymbols}
 %
 
@@ -38,8 +38,8 @@
 %
 \newcommand{\header}[1]{\hspace{5.3cm} \textsf{#1} \relax{}}
 \newcommand{\important}[1]{\textit{#1}}
-\newcommand{\name}[1]{\color{red} {\textup{#1}}\color{black}}
-\newcommand{\response}[1]{\Tribar[2][white][yellow][red]\color{blue} #1}
+\newcommand{\name}[1]{\color{red} {\textsc{#1}}\color{black}}
+\newcommand{\nexusrule}[1]{\Tribar[1][white][yellow][red]\color{blue} #1}
 %
 
 
@@ -66,6 +66,7 @@
 \begin{document}
     \raggedright
     \pagestyle{fancy}
+
 
 
     \fancyhf{}
@@ -97,8 +98,7 @@
     \setcounter{page}{2}
 
 
-    \section*{Copyright}
-
+    \section*{\header{Copyright}}
 
     \raggedright
     The corresponding documentation literature and all the containment's, are certified under the \name{Creative Commons Zero v1.0 Universal License} ,
@@ -132,7 +132,7 @@
         \hspace*{2.5cm}
         and \newline
         \hspace{0.3cm}
-        Free and Open Source Software developers around the globe.
+        \name{Free and Open Source Software } producers around the globe.
 
     \end{centering}
 
@@ -143,7 +143,6 @@
     \setcounter{page}{4}
 
 
-
     \tableofcontents
 
 
@@ -152,7 +151,34 @@
     \pagenumbering{arabic}
     \setcounter{page}{1}
 
-    \header{\section{Preface}}
+    \section{\header{Conventions}}
+
+    Numerous conventions are globally used throughout this document
+    in order to draw attention or to cite particular meanings,
+    which are stated in the posterior table:
+
+
+    \vspace*{2cm}
+    \begin{tabular}{r l}
+
+        \hspace{2.8cm}
+        \raggedright \textbf{\Large Emphasization} & \textbf{\Large definition} \tabularnewline
+
+        \nexusrule{Blue text with Tribar} & Nexusrule \tabularnewline
+        \name{Red small caps text} & Name \tabularnewline
+        \important{Black Italic text} & Important Signification
+
+    \end{tabular}
+    \vspace*{2cm}
+
+    The acknowledgment of the aforementioned elements shall be enough
+    for you to be prepared to start reading this documentation. \newline
+
+    do not hesitate to reach out to this table anytime you have forgave the reason behind a specific emphasizing regularity. \newline
+
+
+    \newpage
+    \section{\header{Preface}}
 
 
     \name{Durability } and \name{consistency } are the two most prominent chunk of a bested project management course,
@@ -162,14 +188,57 @@
     is including consequential regulations and laws,
     which is preserved by affixing sharp style guides to the association. \newline
 
-    Thereby to achieve pleasing result in order to avail the esteem and sagacious community of \name{FOSS}\footnote{Free Open and Source Software.} with our works of knowledge and researches,
+    Thereby to achieve pleasing result in order to avail the esteem and sagacious community of \name{FOSS}\footnote{Free and Open and Source Software.} with our works of knowledge and researches,
     and most essentially, provide value to our respected readers and users,
     we shall possess our own particular style guides for the contributors to adhere. \newline
 
     The foundation of the following pertinent standards and rules, was gathered by the acknowledgment of the fore-mentioned
     principles, with notable absorption to the domain of project management. \newline
 
-    We \important{oblige} all of our contributors to adhere to them, in order to acquire accommodate and flaw-free products.
+    We \important{oblige} all of our contributors to adhere to them,
+    in order to acquire accommodate and flaw-free products. \newline
+
+    Please reach out to the succeeding pages,
+    and interpret them precisely.
+
+    \newpage
+    \thispagestyle{fancy}
+
+    \section{\header{Nexusrules}}
+
+
+    \nexusrule{    1. All NexusWide project repositories MUST contain a 'docs' directory.} \newline
+
+    \nexusrule{    2. All NexusWide project repositories MUST have a 'README.md' file
+    that follows the Markdown formatting and style guidelines.
+    } \newline
+
+    \nexusrule{    3. All NexusWide project repositories MUST contain a 'Security Policy' file.} \newline
+
+    \nexusrule{    4. All of the following segments: 'Security Policy', 'Code of Conduct', 'Contributing Guidelines', and 'Terms of Service'
+        - MUST be located within the 'docs' directory.
+    } \newline
+
+    \nexusrule{    5. Only the 'License' file is permitted to be located in the main directory of the repository.} \newline
+
+    \nexusrule{6. All NexusWide owned repositories MUST be licensed under ( Creative Commons Zero v1.0 Universal ).} \newline
+
+    \nexusrule{    7. Force commits are not allowed in NexusWide repositories.} \newline
+
+    \nexusrule{    8. All versions of the project repository MUST be controlled under semantic versioning ( 'https://semver.org/' ).} \newline
+
+    \nexusrule{    9. The version numbering of the project MUST be split into two phases: ( pre release phase, release phase ).} \newline
+
+    \nexusrule{    10. During the pre release phase all changes in the development process are a part of the version numbering.} \newline
+
+    \nexusrule{     11. The release version numbering MUST govern only the user side features. } \newline
+
+    \nexusrule{    12. When a project reaches the release phase, a ( changelog.md ) file MUST be implemented in the repository ( docs ) directory.
+    } \newline
+
+
+    \nexusrule{    13. The release phase version numbering is only mentioned in ( the changelog.md ) file.
+} \newline
 
 
 \end{document}
