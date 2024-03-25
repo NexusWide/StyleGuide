@@ -206,35 +206,129 @@
 
     \section{\header{Rules}}
 
+      \nexusrule{All NexusWide project repositories MUST contain a 'docs' directory.} \newline
 
-    \nexusrule{    1. All NexusWide project repositories MUST contain a 'docs' directory.} \newline
+      \nexusrule{All NexusWide project repositories MUST have a 'README.md' file located in their 'docs' directory which follows the Markdown formatting and style guidelines.} \newline
 
-    \nexusrule{    2. All NexusWide project repositories MUST have a 'README.md' file
-    that follows the Markdown formatting and style guidelines.
-    } \newline
+      \nexusrule{All NexusWide project repositories MUST contain a 'Security Policy' file.} \newline
 
-    \nexusrule{    3. All NexusWide project repositories MUST contain a 'Security Policy' file.} \newline
+      \nexusrule{All of the following segments: 'Security Policy', 'Code of Conduct', 'Contributing Guidelines', and 'Terms of Service' MUST be located within the 'docs' directory.} \newline
 
-    \nexusrule{    4. All of the following segments: 'Security Policy', 'Code of Conduct', 'Contributing Guidelines', and 'Terms of Service'
-        - MUST be located within the 'docs' directory.
-    } \newline
+      \nexusrule{Only the 'License' file is permitted to be located in the main directory of the repository.} \newline
 
-    \nexusrule{    5. Only the 'License' file is permitted to be located in the main directory of the repository.} \newline
+      \nexusrule{All NexusWide owned repositories MUST be licensed under ( Creative Commons Zero v1.0 Universal ). } \newline
 
-    \nexusrule{6. All NexusWide owned repositories MUST be licensed under ( Creative Commons Zero v1.0 Universal ).} \newline
+      \nexusrule{Force commits are not allowed in NexusWide repositories.} \newline
 
-    \nexusrule{    7. Force commits are not allowed in NexusWide repositories.} \newline
+      \nexusrule{All versions of the project repository MUST be controlled under semantic versioning ( 'https://semver.org/' ).} \newline
 
-    \nexusrule{    8. All versions of the project repository MUST be controlled under semantic versioning ( 'https://semver.org/' ).} \newline
+      \nexusrule{The version numbering of the project MUST be split into two phases: ( pre release phase, release phase ).} \newline
 
-    \nexusrule{    9. The version numbering of the project MUST be split into two phases: ( pre release phase, release phase ).} \newline
+      \nexusrule{ During the pre release phase all changes in the development process are a part of the version numbering.} \newline
 
-    \nexusrule{    10. During the pre release phase all changes in the development process are a part of the version numbering.} \newline
+      \nexusrule{ The release version numbering MUST govern only the user side features.} \newline
 
-    \nexusrule{     11. The release version numbering MUST govern only the user side features. } \newline
+      \nexusrule{ When a project reaches the release phase, a ( changelog.md ) file MUST be implemented in the repository ( docs ) directory.} \newline
 
-    \nexusrule{    12. When a project reaches the release phase, a ( changelog.md ) file MUST be implemented in the repository ( docs ) directory.
-    } \newline
+      \nexusrule{ The release phase version numbering is only mentioned in ( the changelog.md ) file.} \newline
+
+      \nexusrule{ release versioning and development versioning are seperate concepts, do not attempt to increment the release version number while proposing updates to the back end side of the projects.} \newline
+
+      \nexusrule{ Local branches MUST have their name set as the part of the API they are going to affect, followed by the branch number; ( The branch number must be used in order to avoid conflicts with the remote repository old branches ) ( e.x: documentations1 ) .} \newline
+
+      \nexusrule{ Contributors MUST always create a pull request and branch before attempting to make their local changes and submit an update.} \newline
+
+      \nexusrule{ Remote branches MUST be deleted after they have been merged into the master ( Main.Project ) branch in any form.} \newline
+
+      \nexusrule{ Pull requests MUST NOT contain a to do list, as that would make the existence of issues purposeless.} \newline
+
+      \nexusrule{ Pull request titles MUST refer to the fix, feat or MAJOR change commit message which is expected to be the outcome after all the issue to dos are finished.} \newline
+
+      \nexusrule{ the convention of naming pull requests is the same as commit messages.} \newline
+
+      \nexusrule{ All pull requests MUST have at least one comment before being merged.} \newline
+
+      \nexusrule{ Contributors MUST NOT directly list any of the ( fix ) or ( feat ) changes in the description comment of a pull request ( using bulleted or numbered lists, ETC ) They MUST be self explanatory in the commit messages.} \newline
+
+      \nexusrule{ All pull reqeusts MUST contain a well formatted description comment.} \newline
+
+      \nexusrule{ The pull request description comment MUST always be the first comment.} \newline
+
+      \nexusrule{ The pull request description comment MUST start with a header containing the update name tag ( this is not the same as the pull request title, it is any name tag that you would want to assign ) followed by the version number. ( e.x: documentation changes description header would be: ( UDock | 1.0.0 ) ) .} \newline
+
+      \nexusrule{ The pull request description comment MUST contain four sections: What has changed ( API changes ). What were the reasons behind the changes. What results are expected. Which issue notes are affected by this update} \newline
+
+      \nexusrule{ The 'signed off by' section MUST be the last section of the description comment and refer to the contributors who parted in the update.} \newline
+
+      \nexusrule{ Issue references in pull requests MUST follow the following format: ( Issue Note | { Issue Number } ).} \newline
+
+      \nexusrule{ If a update has been rejected, The branch related to the update MUST be deleted, the pull request MUST be closed and labled as 'rejected' ( The description comment MUST stay as is ).} \newline
+
+      \nexusrule{ All code MUST be reformatted and pass all the tests given by the GitHub Actions before being merged} \newline
+
+      \nexusrule{ Issue names MUST follow the corresponding regular expression: ( { Issue Title } | { Issue numeral count } ), ( e.x: problem(docs): remove harsh rules | 3 ) .} \newline
+
+      \nexusrule{ All issues MUST contain at least 1 comment.} \newline
+
+      \nexusrule{ The first comment of an issue MUST be the  details  comment.} \newline
+
+      \nexusrule{ The issue  details  comment MUST be formatted by the following topics: What is the assignment? What are the steps to accomplish? Why is this fixture necessary? What is the expected outcome?} \newline
+
+      \nexusrule{ The issue  details  comment MUST contain a contributor name at its last section, in order to asign the contributor to the cited task.} \newline
+
+      \nexusrule{ The Git commit messages are formatted by the https://www.conventionalcommits.org/en/v1.0.37. conventions.} \newline
+
+      \nexusrule{ Git commits MUST be as small and independent as possible, do not concatenate two possible commits together ( e.x: ( fix(docs): refactor grammar and add header ruleset ) is a bad commit message ) .} \newline
+
+      \nexusrule{ Push changes as often as possible, all the changes to the project ( including the ones that are rejected or/and aborted ) MUST be recorded.} \newline
+
+      \nexusrule{ All suspended projects ( those that don't receive any new update for a designated period of time ) MUST be archived and followed by a note text at the tail of README file, elucidating the fact that the project have been archived.} \newline
+
+      \nexusrule{ All Git commit messages MUST have their branch name and the commit number ( the number of times that the contributor have committed to this branch ) as their footer ( e.x: ( style guide: 3 ) ).} \newline
+
+      \nexusrule{ In the context of combining branches, use merge instead of rebase.} \newline
+
+      \nexusrule{ While performing any type of merging operation, adhere to the same guidelines as commit messages and provide the reason behind the merge ( e.x: fetch(merge): fix conflict with origin main.project ) .} \newline
+
+      \nexusrule{ All remote repository merge messages MUST be the same as the title of their pull request.} \newline
+
+      \nexusrule{ All remote repository merge messages MUST have the URL of their pull request at their description section.} \newline
+
+      \nexusrule{ All merges messages ( Including the remote ones ) MUST have the 'merge' pseudo-environment count as their footer: ( The number of times that a merge operation was conducted in the repository ) ( e.x: ( merge: 4 ) ).} \newline
+
+      \nexusrule{ All NexusWide repositories MUST have a Kanban board project derived from the NexusWide main Kanban board template.} \newline
+
+      \nexusrule{ The NexusWide Kanban board ( In Progress, In Review ) columns MUST be limited to one card only. ( Only one update topic is allowed to be worked on at a time. )} \newline
+
+      \nexusrule{ The NexusWide Kanban board ( Wont Fix, Ready, Backlog, Done ) columns MUST NOT introduce any card amount limitations.} \newline
+
+      \nexusrule{ All NexusWide card items MUST be converted to issues when they reach the ( Ready ) state.} \newline
+
+      \nexusrule{ All NexusWide Kanban card names MUST adhere to the NexusWide Git commit message guidelines.} \newline
+
+      \nexusrule{ All NexusWide Kanban card names MUST be the name of the issue which is going to be after the item have reached the ( In Progress ) state, omitting the issue number.} \newline
+
+      \nexusrule{ The issues generated from a Kanban card MUST have the same name as the card.} \newline
+
+      \nexusrule{ All NexusWide Kanban cards MUST have a description section aligned.} \newline
+
+      \nexusrule{ All NexusWide Kanban card descriptions MUST adhere to the issue details comment formatting guidelines.} \newline
+
+      \nexusrule{ All NexusWide Kanban card descriptions MUST be the description of the issue which is going to be produced after the item have reached the ( In Progress ) state.} \newline
+
+      \nexusrule{ The issues generated from a Kanban card MUST have the same details comment content as the card description.} \newline
+
+      \nexusrule{ All NexusWide card items MUST be moved to the ( Done ) column after the corresponding pull request have been merged.} \newline
+
+      \nexusrule{ All NexusWide card items MUST be moved to the ( Wont Fix ) column if the update have been rejected.} \newline
+
+      \nexusrule{ All NexusWide Kanban card items after/on the ( Ready ) column MUST be assigned a start date.} \newline
+
+      \nexusrule{ All NexusWide Kanban card items after/on the ( Ready ) column MUST be assigned a due date.} \newline
+
+      \nexusrule{ All NexusWide Kanban card items after/on the ( Ready ) column MUST be assigned to a contributor ( assignee ).} \newline
+
+      \nexusrule{ All NexusWide Kanban card items after/on the ( Ready ) column MUST be prioritized and labeled based on the tags offered by the NexusWide main Kanban template.} \newline
 
 
     \nexusrule{    13. The release phase version numbering is only mentioned in ( the changelog.md ) file.
