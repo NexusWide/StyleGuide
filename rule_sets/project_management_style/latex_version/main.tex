@@ -18,9 +18,10 @@
 
 % graphical_formatting_oriented packages.
 \usepackage{graphicx}
+\usepackage[cc]{titlepic}
 \usepackage{fancyhdr}
-\usepackage{xcolor}
 \usepackage{tikzsymbols}
+\usepackage{xcolor}
 %
 
 
@@ -49,6 +50,7 @@
 \title{NexusWide Project Managemet Guidelines}
 \author{Nima Bavar}
 \date{\today}
+\titlepic{\parbox{13cm}{\includegraphics[width=13cm]{/home/nimabavar/Desktop/work/diary/projects/nexus_wide/repositories/style_guide/attachments/nexus_wide_logo.png}}}
 %
 
 
@@ -59,21 +61,15 @@
 
     \fancyhf{}
     \pagestyle{fancy}
+
     \lhead{\leftmark}
-    \rhead{\thepage}
+    \rhead{\rightmark}
 
     \pagenumbering{gobble}
 
 
     \thispagestyle{empty}
     \pagecolor{white}
-
-
-    \begin{figure}[t]
-        \centering \includegraphics[width=14cm]{/home/nimabavar/Desktop/work/diary/projects/nexus_wide/repositories/style_guide/attachments/nexus_wide_logo.png}
-    \end{figure}
-
-    \centering{\name{\hspace{2cm} Research Institute Presents.}} \newline
 
 
     \thispagestyle{empty}
@@ -181,7 +177,7 @@
     we shall possess our own particular style guides for the contributors to adhere. \newline
 
     The foundation of the following pertinent standards and rules, was gathered by the acknowledgment of the fore-mentioned
-    principles, with notable absorption to the domain of project management. \newline
+    principles. \newline
 
     We \important{oblige} all of our contributors to adhere to them,
     in order to acquire accommodate and flaw-free products. \newline
@@ -205,12 +201,13 @@
 
       \nexusrule{Only the 'License' file is permitted to be located in the main directory of the repository.} \newline\nopagebreak
 
-      \nexusrule{All \name{NexusWide } owned repositories MUST be licensed under \linebreak ( Creative Commons Zero v1.0 Universal ). } \newline\nopagebreak
+      \nexusrule{All \name{NexusWide } owned repositories MUST be licensed under \linebreak ( Creative Commons Zero v1.0 Universal ).} \newline\nopagebreak
 
       \nexusrule{Force commits are not allowed in \name{NexusWide } repositories.} \newline\nopagebreak
 
       \nexusrule{Fast-Forward merges are not allowed in \name{NexusWide } repositories.} \newline\nopagebreak
 
+      \newpage
       \nexusrule{All versions of the project repository MUST be controlled under semantic versioning ( 'https://semver.org/' ).} \newline\nopagebreak
 
       \nexusrule{The version numbering of the project MUST be split into two phases: \newline( pre release phase, release phase ).} \newline\nopagebreak
@@ -229,7 +226,6 @@
       \nexusrule{ Local branches MUST have their name set as the part of the API they are going to affect, followed by \newline the branch number  ( The branch number must be used in order to avoid conflicts with the previous remote branches of the same name ).} \newline\nopagebreak
       \example{documentations1} \newline
 
-      \newpage
       \nexusrule{ Contributors MUST always create a pull request and branch before \nopagebreak attempting to make their local changes and submit an update.}
 
       \nexusrule{ Remote branches MUST be deleted after they have been merged into the master ( Main.Project ) branch in any form.} \newline\nopagebreak
@@ -244,7 +240,7 @@
 
       \nexusrule{ Contributors MUST NOT directly list any of the ( fix ) or ( feat ) changes in the description comment of a pull request ( using bulleted or numbered lists, ETC ) They MUST be self explanatory in the commit messages.} \newline\nopagebreak
 
-      \nexusrule{ All pull reqeusts MUST contain a well formatted description comment.} \newline\nopagebreak
+      \nexusrule{ All pull requests MUST contain a well formatted description comment.} \newline\nopagebreak
 
       \newpage
       \nexusrule{ The pull request description comment MUST always be the first comment.} \newline\nopagebreak
@@ -252,7 +248,7 @@
       \nexusrule{ The pull request description comment MUST start with a header containing the update name tag \newline ( this is not the same as the pull request title, it is any name tag that you would want to assign ) followed by the version number.} \newline\nopagebreak
       \example{ Presuming changes in documentations: UDock $\vert$ 1.0.0  } \newline
 
-      \nexusrule{ The pull request description comment MUST contain four sections: What has changed ( API changes ). What were the reasons behind the changes. What results are expected. Which issue notes are affected by this update} \newline\nopagebreak
+      \nexusrule{ The pull request description comment MUST contain four sections: \newline What has changed ( API changes )? \newline What were the reasons behind the changes? \newline What results are expected? \newline Which issue notes are affected by this update?} \newline\nopagebreak
 
       \nexusrule{ The 'signed off by' section MUST be the last section of the description comment and refer to the contributors who parted in the update.} \newline\nopagebreak
 
@@ -263,7 +259,7 @@
       \nexusrule{ All code MUST be reformatted and pass all the tests adjusted by the Github automation flow before being merged.} \newline\nopagebreak
 
       \newpage
-      \nexusrule{ Issue names MUST follow the corresponding regular expression: \newline ( { Issue Title } $\vert$ { Issue numeral Count } )} \newline\nopagebreak
+      \nexusrule{ Issue names MUST follow the corresponding regular expression: \newline ( { Issue Title } $\vert$ { Issue numeral Count } ).} \newline\nopagebreak
       \example{fix(docs): remove harsh rules $\vert$ 3} \newline
 
       \nexusrule{ All issues MUST contain at least 1 comment.} \newline\nopagebreak
@@ -284,7 +280,7 @@
 
       \nexusrule{ All suspended projects ( those that don't receive any new update for a designated period of time ) MUST be archived and followed by a note text at the tail of their README file,        elucidating the fact that the project have been archived.} \newline\nopagebreak
 
-      \nopagebreak \nexusrule{ All Git commit messages MUST have their branch name and the commit number \nolinebreak[4] ( the number of times that the contributor have committed to a branch ) as their footer} \newline\nopagebreak
+      \nopagebreak \nexusrule{ All Git commit messages MUST have their branch name and the commit number \nolinebreak[4] ( the number of times that the contributor have committed to a branch ) as their footer.} \newline\nopagebreak
       \example{style\textunderscore guide: 3} \newline
 
       \nexusrule{ In the context of combining branches, use merge instead of rebase.} \newline\nopagebreak
@@ -327,7 +323,7 @@
       \nexusrule{ All \name{NexusWide } Kanban card items MUST be moved to the ( wont\textunderscore fix ) column if the update have been rejected.} \newline\nopagebreak
 
       \nexusrule{ All \name{NexusWide } Kanban card items after/on the ( ready ) column MUST be assigned a start date.} \newline\nopagebreak
-p
+
       \nexusrule{ All \name{NexusWide } Kanban card items after/on the ( ready ) column MUST be assigned a due date.} \newline\nopagebreak
 
       \nexusrule{ All \name{NexusWide } Kanban card items after/on the ( ready ) column MUST be assigned to a contributor ( assignee ).} \newline\nopagebreak
