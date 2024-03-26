@@ -206,12 +206,13 @@
 
       \nexusrule{Only the 'License' file is permitted to be located in the main directory of the repository.} \newline\nopagebreak
 
-      \nexusrule{All \name{NexusWide } owned repositories MUST be licensed under \linebreak ( Creative Commons Zero v1.0 Universal ). } \newline\nopagebreak
+      \nexusrule{All \name{NexusWide } owned repositories MUST be licensed under \linebreak ( Creative Commons Zero v1.0 Universal ).} \newline\nopagebreak
 
       \nexusrule{Force commits are not allowed in \name{NexusWide } repositories.} \newline\nopagebreak
 
       \nexusrule{Fast-Forward merges are not allowed in \name{NexusWide } repositories.} \newline\nopagebreak
 
+      \newpage
       \nexusrule{All versions of the project repository MUST be controlled under semantic versioning ( 'https://semver.org/' ).} \newline\nopagebreak
 
       \nexusrule{The version numbering of the project MUST be split into two phases: \newline( pre release phase, release phase ).} \newline\nopagebreak
@@ -230,7 +231,6 @@
       \nexusrule{ Local branches MUST have their name set as the part of the API they are going to affect, followed by \newline the branch number  ( The branch number must be used in order to avoid conflicts with the previous remote branches of the same name ).} \newline\nopagebreak
       \example{documentations1} \newline
 
-      \newpage
       \nexusrule{ Contributors MUST always create a pull request and branch before \nopagebreak attempting to make their local changes and submit an update.}
 
       \nexusrule{ Remote branches MUST be deleted after they have been merged into the master ( Main.Project ) branch in any form.} \newline\nopagebreak
@@ -253,7 +253,7 @@
       \nexusrule{ The pull request description comment MUST start with a header containing the update name tag \newline ( this is not the same as the pull request title, it is any name tag that you would want to assign ) followed by the version number.} \newline\nopagebreak
       \example{ Presuming changes in documentations: UDock $\vert$ 1.0.0  } \newline
 
-      \nexusrule{ The pull request description comment MUST contain four sections: What has changed ( API changes ). What were the reasons behind the changes. What results are expected. Which issue notes are affected by this update} \newline\nopagebreak
+      \nexusrule{ The pull request description comment MUST contain four sections: \newline What has changed ( API changes ). \newline What were the reasons behind the changes. \newline What results are expected. \newline Which issue notes are affected by this update.} \newline\nopagebreak
 
       \nexusrule{ The 'signed off by' section MUST be the last section of the description comment and refer to the contributors who parted in the update.} \newline\nopagebreak
 
@@ -264,7 +264,7 @@
       \nexusrule{ All code MUST be reformatted and pass all the tests adjusted by the Github automation flow before being merged.} \newline\nopagebreak
 
       \newpage
-      \nexusrule{ Issue names MUST follow the corresponding regular expression: \newline ( { Issue Title } $\vert$ { Issue numeral Count } )} \newline\nopagebreak
+      \nexusrule{ Issue names MUST follow the corresponding regular expression: \newline ( { Issue Title } $\vert$ { Issue numeral Count } ).} \newline\nopagebreak
       \example{fix(docs): remove harsh rules $\vert$ 3} \newline
 
       \nexusrule{ All issues MUST contain at least 1 comment.} \newline\nopagebreak
@@ -285,7 +285,7 @@
 
       \nexusrule{ All suspended projects ( those that don't receive any new update for a designated period of time ) MUST be archived and followed by a note text at the tail of their README file,        elucidating the fact that the project have been archived.} \newline\nopagebreak
 
-      \nopagebreak \nexusrule{ All Git commit messages MUST have their branch name and the commit number \nolinebreak[4] ( the number of times that the contributor have committed to a branch ) as their footer} \newline\nopagebreak
+      \nopagebreak \nexusrule{ All Git commit messages MUST have their branch name and the commit number \nolinebreak[4] ( the number of times that the contributor have committed to a branch ) as their footer.} \newline\nopagebreak
       \example{style\textunderscore guide: 3} \newline
 
       \nexusrule{ In the context of combining branches, use merge instead of rebase.} \newline\nopagebreak
