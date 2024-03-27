@@ -57,15 +57,12 @@
 \begin{document}
     \raggedright
     \pagestyle{fancy}
-
+    \pagenumbering{gobble}
 
     \fancyhf{}
-    \pagestyle{fancy}
 
     \lhead{\leftmark}
     \rhead{\rightmark}
-
-    \pagenumbering{gobble}
 
 
     \thispagestyle{empty}
@@ -180,7 +177,7 @@
     principles. \newline
 
     We \important{oblige} all of our contributors to adhere to them,
-    in order to acquire accommodate and flaw-free products. \newline
+    in order to acquire accommodate flaw-free products. \newline
 
     Please reach out to the succeeding pages,
     and interpret them precisely.
@@ -189,28 +186,45 @@
     \newpage
     \thispagestyle{fancy}
 
-    \section{\header{Rules}}
+    \section{\header{Project Management Guidelines}}
+    Comprised throughout numerous well-known projects of the present era,
+    \name{DVCS}\footnote{Distributed Version Control System.} is one of most comfortable branches of \name{VCS}\footnote{Version Control System.}s. \newline
 
-      \nexusrule{All \name{NexusWide } project repositories MUST contain a 'docs' directory.} \newline\nopagebreak
 
-      \nexusrule{All \name{NexusWide } project repositories MUST have a 'README.md' file located in their 'docs' directory which follows the Markdown formatting and style guidelines.} \newline\nopagebreak
+    Because of its distributed bearing, the altering of the project is inexpensively feasible in the offline status. \newline
+    This actuality stems from the fact that each individual is permitted to conduct his\textbackslash her own local copy of the project,
+    and as labeled in the realm of \name{Version Control},
+    \important{push} the developed \name{Revisions}\footnote{Also known as Commits.} to a central cloud repository
+    once a satisfied condition of the project is prevailed.
 
-      \nexusrule{All \name{NexusWide } project repositories MUST contain a 'Security Policy' file.} \newline\nopagebreak
+    Thence, it is the default \name{VCS} which is utilized by the NexusWide organization in the field of project management. \newline
 
-      \nexusrule{All of the following segments: 'Security Policy', 'Code of Conduct', 'Contributing Guidelines', and 'Terms of Service' MUST be located within the 'docs' directory.} \newline\nopagebreak
+    This section elucidates all of the guidelines and practices which are employed throughout the organization
+    in order to take full advantage of the \name{DVCS} capabilities.
 
-      \nexusrule{Only the 'License' file is permitted to be located in the main directory of the repository.} \newline\nopagebreak
+
+    \newpage
+    \subsection{List of Rules}
+
+      \nexusrule{All \name{NexusWide } project repositories MUST contain a \name{docs} directory.} \newline\nopagebreak
+
+      \nexusrule{All \name{NexusWide } project repositories MUST have a \name{README.md} file located in their \name{docs} directory which follows the Markdown formatting and style guidelines.} \newline\nopagebreak
+
+      \nexusrule{All \name{NexusWide } project repositories MUST contain a \name{Security Policy} file.} \newline\nopagebreak
+
+      \nexusrule{All of the following segments: \name{Security Policy}, \name{Code of Conduct}, \name{Contributing Guidelines}, and \name{Terms of Service} MUST be located within the \name{docs} directory.} \newline\nopagebreak
+
+      \nexusrule{Only the \name{LICENSE} file is permitted to be located in the main directory of the repository.} \newline\nopagebreak
 
       \nexusrule{All \name{NexusWide } owned repositories MUST be licensed under \linebreak ( Creative Commons Zero v1.0 Universal ).} \newline\nopagebreak
 
       \nexusrule{Force commits are not allowed in \name{NexusWide } repositories.} \newline\nopagebreak
 
-      \nexusrule{Fast-Forward merges are not allowed in \name{NexusWide } repositories.} \newline\nopagebreak
+      \nexusrule{Fast-forward \name{merge}s are not allowed in \name{NexusWide } repositories.} \newline\nopagebreak
 
-      \newpage
-      \nexusrule{All versions of the project repository MUST be controlled under semantic versioning ( 'https://semver.org/' ).} \newline\nopagebreak
+      \nexusrule{All versions of the project repository MUST be controlled under semantic versioning ( \name{https://semver.org/} ).} \newline\nopagebreak
 
-      \nexusrule{The version numbering of the project MUST be split into two phases: \newline( pre release phase, release phase ).} \newline\nopagebreak
+      \nexusrule{The version numbering of the projects MUST be split into two phases: \newline( pre\textunderscore release phase, release phase ).} \newline\nopagebreak
 
       \nexusrule{ During the pre release phase all changes in the development process are a part of the version numbering.} \newline\nopagebreak
 
@@ -226,111 +240,111 @@
       \nexusrule{ Local branches MUST have their name set as the part of the API they are going to affect, followed by \newline the branch number  ( The branch number must be used in order to avoid conflicts with the previous remote branches of the same name ).} \newline\nopagebreak
       \example{documentations1} \newline
 
-      \nexusrule{ Contributors MUST always create a pull request and branch before \nopagebreak attempting to make their local changes and submit an update.}
+      \nexusrule{ Contributors MUST always create a \name{pull request} and branch before \nopagebreak attempting to make their local changes and submit an update.} \newline
 
-      \nexusrule{ Remote branches MUST be deleted after they have been merged into the master ( Main.Project ) branch in any form.} \newline\nopagebreak
+      \nexusrule{ Remote branches MUST be deleted after they have been \name{merge}d into the master ( Main.Project ) branch in any form.} \newline\nopagebreak
 
-      \nexusrule{ Pull requests MUST NOT contain a to do list, as that would make the existence of issues purposeless.} \newline\nopagebreak
+      \nexusrule{ \name{pull request} titles MUST refer to the fix, feat or MAJOR change commit message which is expected to be the outcome after all the \name{issue} to-do tasks are finished.} \newline\nopagebreak
 
-      \nexusrule{ Pull request titles MUST refer to the fix, feat or MAJOR change commit message which is expected to be the outcome after all the issue to todo tasks are finished.} \newline\nopagebreak
+      \nexusrule{ The convention of naming \name{pull request}s is the same as commit messages.} \newline\nopagebreak
 
-      \nexusrule{ The convention of naming pull requests is the same as commit messages.} \newline\nopagebreak
+      \nexusrule{ All \name{pull request}s MUST have at least one comment before being \name{merge}d.} \newline\nopagebreak
 
-      \nexusrule{ All pull requests MUST have at least one comment before being merged.} \newline\nopagebreak
+      \nexusrule{ All \name{pull request}s MUST contain a well formatted description comment.} \newline\nopagebreak
 
-      \nexusrule{ Contributors MUST NOT directly list any of the ( fix ) or ( feat ) changes in the description comment of a pull request ( using bulleted or numbered lists, ETC ) They MUST be self explanatory in the commit messages.} \newline\nopagebreak
+      \nexusrule{ The \name{pull request} description comment MUST always be the first comment.} \newline\nopagebreak
 
-      \nexusrule{ All pull requests MUST contain a well formatted description comment.} \newline\nopagebreak
+      \nexusrule{ Contributors MUST NOT directly list any of the ( fix ) or ( feat ) changes in the description comment of a \name{pull request} ( using bulleted or numbered lists, ETC ) They MUST be self explanatory in the commit messages.} \newline\nopagebreak
 
       \newpage
-      \nexusrule{ The pull request description comment MUST always be the first comment.} \newline\nopagebreak
+      \nexusrule{ \name{pull request}s MUST NOT contain a to do list, as that would make the existence of \name{issue}s purposeless.} \newline\nopagebreak
 
-      \nexusrule{ The pull request description comment MUST start with a header containing the update name tag \newline ( this is not the same as the pull request title, it is any name tag that you would want to assign ) followed by the version number.} \newline\nopagebreak
+      \nexusrule{ The \name{pull request} description comment MUST start with a header containing the update name tag \newline ( this is not the same as the \name{pull request} title, it is any name tag that you would want to assign ) followed by the version number.} \newline\nopagebreak
       \example{ Presuming changes in documentations: UDock $\vert$ 1.0.0  } \newline
 
-      \nexusrule{ The pull request description comment MUST contain four sections: \newline What has changed ( API changes )? \newline What were the reasons behind the changes? \newline What results are expected? \newline Which issue notes are affected by this update?} \newline\nopagebreak
+      \nexusrule{ The \name{pull request} description comment MUST contain four sections: \newline What has changed ( API changes )? \newline What were the reasons behind the changes? \newline What results are expected? \newline Which \name{issue} notes are affected by this update?} \newline\nopagebreak
 
-      \nexusrule{ The 'signed off by' section MUST be the last section of the description comment and refer to the contributors who parted in the update.} \newline\nopagebreak
+      \nexusrule{ The \name{signed off by} section MUST be the last section of the description comment and refer to the contributors who parted in the update.} \newline\nopagebreak
 
-      \nexusrule{ Issue references in pull requests MUST follow the following format: \newline ( Issue Note $\vert$ { Issue Number } ).} \newline\nopagebreak
+      \nexusrule{ \name{Issue} references in \name{pull request}s MUST follow the following format: \newline ( \name{Issue} Note $\vert$ { \name{Issue} Number } ).} \newline\nopagebreak
 
-      \nexusrule{ If a update has been rejected, The branch related to the update MUST be deleted, the pull request MUST be closed and labled as 'rejected' \newline ( The description comment MUST stay as is ).} \newline\nopagebreak
-
-      \nexusrule{ All code MUST be reformatted and pass all the tests adjusted by the Github automation flow before being merged.} \newline\nopagebreak
+      \nexusrule{ If a update has been rejected, The branch related to the update MUST be deleted, the \name{pull request} MUST be closed and labled as \name{rejected} \newline ( The description comment MUST stay as is ).} \newline\nopagebreak
 
       \newpage
-      \nexusrule{ Issue names MUST follow the corresponding regular expression: \newline ( { Issue Title } $\vert$ { Issue numeral Count } ).} \newline\nopagebreak
+      \nexusrule{ All code MUST be reformatted and pass all the tests adjusted by the \name{Github} automation flow before being \name{merge}d.} \newline\nopagebreak
+
+      \nexusrule{ \name{Issue} names MUST follow the corresponding regular expression: \newline ( { \name{Issue} Title } $\vert$ { \name{Issue} numeral Count } ).} \newline\nopagebreak
       \example{fix(docs): remove harsh rules $\vert$ 3} \newline
 
-      \nexusrule{ All issues MUST contain at least 1 comment.} \newline\nopagebreak
+      \nexusrule{ All \name{issue}s MUST contain at least 1 comment.} \newline\nopagebreak
 
-      \nexusrule{ The first comment of an issue MUST be the  details  comment.} \newline\nopagebreak
+      \nexusrule{ The first comment of an \name{issue} MUST be the  details  comment.} \newline\nopagebreak
 
-      \nexusrule{ The issue details comment MUST be formatted in induce to providing a response to the following topics: \newline What is the assignment? \newline What are the steps to accomplish? \newline Why is this fixture necessary?  \newline  What is the expected outcome?} \newline\nopagebreak
+      \nexusrule{ The \name{issue} details comment MUST be formatted in induce to providing a response to the following topics: \newline What is the assignment? \newline What are the steps to accomplish? \newline Why is this fixture necessary?  \newline  What is the expected outcome?} \newline\nopagebreak
 
-      \nexusrule{ The issue details comment MUST contain a contributor name at its last section, in order to assign the contributor to the cited task.} \newline\nopagebreak
+      \nexusrule{ The \name{issue} details comment MUST contain a contributor name at its last section, in order to assign the contributor to the cited task.} \newline\nopagebreak
 
-      \nexusrule{ The Git commit messages are formatted by the https://www.conventionalcommits.org/en/v1.0.37. conventions.} \newline\nopagebreak
-
-      \nexusrule{ Git commits MUST be as small and independent as possible, do not concatenate two possible commits together.} \newline\nopagebreak
-      \example{fix(docs): refactor grammar and add header $\vert$ is a bad commit message.} \newline
+      \nexusrule{ The \name{Git} commit messages are formatted by the https://www.conventionalcommits.org/en/v1.0.37. conventions.} \newline\nopagebreak
 
       \newpage
+      \nexusrule{ \name{Git} commits MUST be as small and independent as possible, do not concatenate two possible commits together.} \newline\nopagebreak
+      \example{fix(docs): refactor grammar and add header $\vert$ is a bad commit message.} \newline
+
       \nexusrule{ Push changes as often as possible, all the changes to the project \linebreak ( including the ones that are rejected or/and aborted ) MUST be recorded.} \newline\nopagebreak
 
       \nexusrule{ All suspended projects ( those that don't receive any new update for a designated period of time ) MUST be archived and followed by a note text at the tail of their README file,        elucidating the fact that the project have been archived.} \newline\nopagebreak
 
-      \nopagebreak \nexusrule{ All Git commit messages MUST have their branch name and the commit number \nolinebreak[4] ( the number of times that the contributor have committed to a branch ) as their footer.} \newline\nopagebreak
+      \nopagebreak \nexusrule{ All \name{Git} commit messages MUST have their branch name and the commit number \nolinebreak[4] ( the number of times that the contributor have committed to a branch ) as their footer.} \newline\nopagebreak
       \example{style\textunderscore guide: 3} \newline
 
-      \nexusrule{ In the context of combining branches, use merge instead of rebase.} \newline\nopagebreak
+      \nexusrule{ In the context of combining branches, use \name{merge} instead of \name{rebase}.} \newline\nopagebreak
 
-      \nexusrule{ While performing any type of merging operation, adhere to the same guidelines as commit messages and provide the reason behind the merge.} \newline\pagebreak
-      \example{fetch(merge): fix conflict with origin} \newline
+      \nexusrule{ While performing any type of merging operation, adhere to the same guidelines as commit messages and provide the reason behind the \name{merge}.} \newline\pagebreak
+      \example{fetch(\name{merge}): fix conflict with origin} \newline
 
-      \nexusrule{ All remote repository merge messages MUST be the same as the title of their pull request.} \newline\nopagebreak
+      \nexusrule{ All remote repository \name{merge} messages MUST be the same as the title of their \name{pull request}.} \newline\nopagebreak
 
-      \nexusrule{ All remote repository merge messages MUST have the URL of their pull request at their description section.} \newline\nopagebreak
+      \nexusrule{ All remote repository \name{merge} messages MUST have the URL of their \name{pull request} at their description section.} \newline\nopagebreak
 
-      \nexusrule{ All merges messages ( Including the remote ones ) MUST have the 'merge' pseudo-environment count as their footer: ( The number of times that a merge operation was conducted in the repository )} \newline\pagebreak
-      \example{merge: 4} \newline
+      \nexusrule{ All \name{merge} messages ( Including the remote ones ) MUST have the \name{\name{merge}} pseudo-environment count as their footer: ( The number of times that a \name{merge} operation was conducted in the repository )} \newline\pagebreak
+      \example{\name{merge}: 4} \newline\nopagebreak[1]
 
       \nexusrule{ All \name{NexusWide } repositories MUST have a Kanban board project derived from the \name{NexusWide } main Kanban board template.} \newline\nopagebreak
 
-      \nexusrule{ The \name{NexusWide } Kanban board ( in\textunderscore progress and in\textunderscore review ) columns MUST be limited to one card only. \newline ( Only one update topic is allowed to be worked on at a time. )} \newline\nopagebreak[1]
+      \nexusrule{ The \name{NexusWide } Kanban board ( \name{in\textunderscore progress} and \name{in\textunderscore review} ) columns MUST be limited to one card only. \newline ( Only one update topic is allowed to be worked on at a time. )} \newline\nopagebreak[1]
 
-      \nexusrule{ The \name{NexusWide } Kanban board ( wont\textunderscore fix, ready,  done ) columns MUST NOT introduce any card amount limitations.} \newline\nopagebreak
+      \nexusrule{ The \name{NexusWide } Kanban board ( \name{wont\textunderscore fix}, \name{ready},  \name{done} ) columns MUST NOT introduce any card amount limitations.} \newline\nopagebreak
 
-      \nexusrule{ All \name{NexusWide } card items MUST be converted to issues when they reach the ( ready ) state.} \newline\nopagebreak
+      \nexusrule{ All \name{NexusWide } card items MUST be converted to \name{issue}s when they reach the ( \name{ready} ) state.} \newline\nopagebreak
 
-      \nexusrule{ All \name{NexusWide } Kanban card names MUST adhere to the \name{NexusWide } Git commit message guidelines.} \newline\nopagebreak
+      \nexusrule{ All \name{NexusWide } Kanban card names MUST adhere to the \name{NexusWide } \name{Git} commit message guidelines.} \newline\nopagebreak
 
-      \nexusrule{ All \name{NexusWide } Kanban card names MUST be the name of the issue which is going to be produced after the item have reached \newline the ( in\textunderscore progress ) state, omitting the issue number.} \newline\nopagebreak[4]
+      \nexusrule{ All \name{NexusWide } Kanban card names MUST be the name of the \name{issue} which is going to be produced after the item have reached \newline the ( \name{in\textunderscore progress} ) state, omitting the \name{issue} number.} \newline\nopagebreak[4]
 
       \newpage
-      \nexusrule{ The issues generated from a Kanban card MUST have the same name as the card.} \newline\nopagebreak
+      \nexusrule{ The \name{issue}s generated from a Kanban card MUST have the same name as the card.} \newline\nopagebreak
 
       \nexusrule{ All \name{NexusWide } Kanban cards MUST have a description section aligned.} \newline\nopagebreak
 
-      \nexusrule{ All \name{NexusWide } Kanban card descriptions MUST adhere to the issue details comment formatting guidelines.} \newline\nopagebreak
+      \nexusrule{ All \name{NexusWide } Kanban card descriptions MUST adhere to the \name{issue} details comment formatting guidelines.} \newline\nopagebreak
 
-      \nexusrule{ All \name{NexusWide } Kanban card descriptions MUST be the description of the issue which is going to be produced after the item have reached the \newline( in\textunderscore progress ) state.} \newline\nopagebreak
+      \nexusrule{ All \name{NexusWide } Kanban card descriptions MUST be the description of the \name{issue} which is going to be produced after the item have reached the \newline( \name{in\textunderscore progress} ) state.} \newline\nopagebreak
 
-      \nexusrule{ The issues generated from a Kanban card MUST have the same details comment content as the card description.} \newline\nopagebreak
+      \nexusrule{ The \name{issue}s generated from a Kanban card MUST have the same details comment content as the card description.} \newline\nopagebreak
 
-      \nexusrule{ All \name{NexusWide } Kanban card items MUST be moved to the ( done ) column after the corresponding pull request have been merged.} \newline\nopagebreak
+      \nexusrule{ All \name{NexusWide } Kanban card items MUST be moved to the ( \name{\name{done}} ) column after the corresponding \name{pull request} have been \name{merge}d.} \newline\nopagebreak
 
-      \nexusrule{ All \name{NexusWide } Kanban card items MUST be moved to the ( wont\textunderscore fix ) column if the update have been rejected.} \newline\nopagebreak
+      \nexusrule{ All \name{NexusWide } Kanban card items MUST be moved to the ( \name{wont\textunderscore fix} ) column if the update have been rejected.} \newline\nopagebreak
 
-      \nexusrule{ All \name{NexusWide } Kanban card items after/on the ( ready ) column MUST be assigned a start date.} \newline\nopagebreak
+      \nexusrule{ All \name{NexusWide } Kanban card items after/on the ( \name{ready} ) column MUST be assigned a start date.} \newline\nopagebreak
 
-      \nexusrule{ All \name{NexusWide } Kanban card items after/on the ( ready ) column MUST be assigned a due date.} \newline\nopagebreak
+      \nexusrule{ All \name{NexusWide } Kanban card items after/on the ( \name{ready} ) column MUST be assigned a due date.} \newline\nopagebreak
 
-      \nexusrule{ All \name{NexusWide } Kanban card items after/on the ( ready ) column MUST be assigned to a contributor ( assignee ).} \newline\nopagebreak
+      \nexusrule{ All \name{NexusWide } Kanban card items after/on the ( \name{ready} ) column MUST be assigned to a contributor ( assignee ).} \newline\nopagebreak
 
-      \nexusrule{ All \name{NexusWide } Kanban card items after/on the ( ready ) column MUST be prioritized and labeled based on the tags offered by the \name{NexusWide } main Kanban template.} \newline\nopagebreak
+      \nexusrule{ All \name{NexusWide } Kanban card items after/on the ( \name{ready} ) column MUST be prioritized and labeled based on the tags offered by the \name{NexusWide } main Kanban template.} \newline\nopagebreak
 
-      \nexusrule{ All NexusWide Kanban card items after/on the ( Ready ) column MUST be measured in size and labeled based on the tags offered by the NexusWide main Kanban template. }
+      \nexusrule{ All NexusWide Kanban card items after/on the ( \name{Ready} ) column MUST be measured in size and labeled based on the tags offered by the NexusWide main Kanban template. }
       \newline\nopagebreak
 
 
