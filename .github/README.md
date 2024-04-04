@@ -10,18 +10,6 @@
 <br>
 
 
-# What are the conventions used throughout the documentations?
----
-
-> The key words `MUST`, `MUST NOT`, `REQUIRED`, `SHALL`, `SHALL NOT`, `SHOULD`, `SHOULD NOT`, `RECOMMENDED`,  `MAY`, and `OPTIONAL` in this document are to be interpreted as described in
-[The Internet Network Group RFC ( Request For Comment  ) number 2119](https://datatracker.ietf.org/doc/html/rfc2119).
-
----
-
-
-<br>
-
-
 *Thank you for investing your valuable time in reading our relentless efforts in order to keep our products at their finest quality.*
 
 ---
